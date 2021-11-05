@@ -236,7 +236,7 @@ p {
     line-height: 26px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #54E346;
+    color: #fff;
     margin-left: 10px;
 }
 
@@ -269,7 +269,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -686,7 +686,10 @@ p {
         padding: 9px;
         margin-left: 5px;
     }
-
+    .logo_text {
+        font-size: 12.191px;
+        line-height: 12px;
+    }
     /* .search-bar {
         height: 45px !important;
     }
@@ -2091,6 +2094,9 @@ button:active {
         margin-top: 10px;
         font-size: 10px;
     } */
+    .card{
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -2474,7 +2480,7 @@ button:active {
 }
 
 .faculty_left {
-    background: #1882FF;
+    background: #153E90;
     border-radius: 22.5708px;
     display: flex;
     flex-direction: column;
@@ -2540,7 +2546,7 @@ button:active {
 
 .faculty_input_arrow {
     position: absolute;
-    background: #1882FF;
+    background: #153E90;
     border-radius: 17.0233px;
     padding: 13px;
     margin-left: 80%;
@@ -2780,7 +2786,7 @@ button:active {
     cursor: pointer;
     display: block;
     padding: 5px;
-    margin-left: 18px;
+    margin-left: 8px;
 }
 
 .drop-down .option {
@@ -3818,7 +3824,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 49.8605px;
+    font-size: 36px;
     line-height: 58px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -3833,7 +3839,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 38.4px;
+    font-size: 24px;
     line-height: 45px;
     letter-spacing: 0.01em;
     text-decoration-line: underline;
