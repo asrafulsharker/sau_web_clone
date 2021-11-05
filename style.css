@@ -234,13 +234,19 @@ p {
     font-style: normal;
     font-weight: 900;
     font-size: 24.1915px;
-    line-height: 26px;
+    line-height: 24px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
     margin-left: 10px;
+    margin-bottom: 5px;
 }
-
+.logo_text_bd{
+    border-top: 2px solid #C4C4C4;
+    margin-top: 2px;
+    color: #54E346;
+    padding-top: 5px;
+}
 .right_nav {
     flex: 5;
     display: flex;
@@ -286,8 +292,8 @@ p {
     }
 
     .logo_text {
-        font-size: 29.191px;
-        line-height: 30px;
+        font-size: 24.191px;
+        line-height: 24px;
     }
 }
 
