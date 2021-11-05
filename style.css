@@ -2060,6 +2060,9 @@ button:active {
         line-height: 25px;
         width: 90%;
     }
+    .card{
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width :600px) {
