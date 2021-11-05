@@ -1562,7 +1562,7 @@ p {
 }
 
 #myBtnContainer .active {
-    border-bottom: 6px solid #1882FF !important;
+    border-bottom: 3px solid #1882FF !important;
     font-weight: bold !important;
 }
 
