@@ -2973,9 +2973,9 @@ button:active {
     line-height: 18px;
     letter-spacing: 0.01em;
     color: #FFECEC;
-    background-color: #1882FF !important;
+    background-color:#284E8D !important;
     padding: 15px 40px;
-    margin-left: -15px;
+    /* margin-left: -15px; */
     text-decoration: none !important;
 }
 
@@ -2992,7 +2992,7 @@ button:active {
     letter-spacing: 0.01em;
     color: #FFECEC;
     padding: 15px 40px;
-    margin-left: -15px;
+    /* margin-left: -15px; */
     background-color: #049906;
     text-decoration: none !important;
 }
@@ -4285,7 +4285,18 @@ button:active {
 .top_footer_txt {
     margin-top: 20px;
 }
-
+.footer_txt{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer_txt p{
+    margin-left: 8px;
+}
+.footer_txt img{
+    /* height: 10px; */
+    
+}
 .footer_3rd_col {
     display: flex;
     flex-direction: column;
