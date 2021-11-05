@@ -456,7 +456,7 @@ p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 800;
-    height: 30px !important;
+    height: 30px ;
 }
 
 /* .search-bar:hover>.textbox {
@@ -482,7 +482,7 @@ p {
 
 .search_img {
     /* background-color: red; */
-    height: 30px !important;
+    height: 30px ;
 }
 
 .nav_pop_icon a img {
@@ -765,6 +765,9 @@ p {
 
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
+    }
+    .search_img{
+        height: 20px;
     }
 }
 
