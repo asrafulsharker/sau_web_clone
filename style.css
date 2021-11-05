@@ -1683,6 +1683,12 @@ button:active {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.admission_bottom_covid19{
+    justify-content: center !important;
+}
+.card_covid19{
+    padding:0% 10px ;
+}
 
 .admission_bottom_1 {
     position: relative;
