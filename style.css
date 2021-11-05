@@ -596,7 +596,14 @@ p {
     cursor: pointer;
     /* z-index: 60000; */
 }
-
+@media screen and (max-height :580px) {
+    .nav_main_options a{
+        margin-top: 12px;
+    }
+    .nav_2ndlebel_option{
+        margin: 4% 0% 0% 0%;
+    }
+}
 @media screen and (max-width :1024px) {
     .nav_main_options {
         margin: 0% 0% 0% 0% !important;
@@ -2900,7 +2907,7 @@ button:active {
 .caloander_card {
     position: relative;
     width: 88px;
-    height: 120px;
+    height: 105px;
     background: #060606;
 
 }
@@ -2946,7 +2953,7 @@ button:active {
 
 .notice_main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -3045,6 +3052,7 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0% 4%;
 }
 
 .ranking_1_img {
