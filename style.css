@@ -206,6 +206,7 @@ p {
 .nav_label_one{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 .nav_label_two{
     display: flex;
