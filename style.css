@@ -233,8 +233,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 24.1915px;
-    line-height: 24px;
+    font-size: 16.1915px;
+    line-height: 16px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
@@ -292,8 +292,8 @@ p {
     }
 
     .logo_text {
-        font-size: 24.191px;
-        line-height: 24px;
+        font-size: 16.191px;
+        line-height: 16px;
     }
 }
 
