@@ -4295,10 +4295,11 @@ button:active {
     align-items: center;
 }
 .footer_txt p{
-    margin-left: 8px;
+    margin-left: 0px;
 }
 .footer_txt img{
     /* height: 10px; */
+    display: none;
     
 }
 .footer_3rd_col {
