@@ -4520,6 +4520,7 @@ button:active {
     letter-spacing: 0.01em;
     color: #FFFFFF;
     flex-wrap: wrap;
+    justify-content: start;
 }
 
 .footer_bottom_right a {
@@ -4527,8 +4528,9 @@ button:active {
     color: #FFFFFF;
     padding: 0px 25px;
     border-left: 0.5px solid #666666;
+    margin-top: 5px;
 }
-..footer_bottom_right a:hover{
+.footer_bottom_right a:hover{
     color: #fff;
 }
 
