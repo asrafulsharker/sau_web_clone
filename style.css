@@ -3402,7 +3402,7 @@ button:active {
 
 .event_btn:focus {
     font-weight: bold;
-    border-bottom: 3px solid #1882FF;
+    /* border-bottom: 3px solid #1882FF; */
 }
 
 .event_arrow_prev {
