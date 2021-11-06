@@ -986,8 +986,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 53.99px;
-    line-height: 63px;
+    font-size: 43.99px;
+    line-height: 43px;
     text-align: center;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -1239,8 +1239,8 @@ p {
     }
 
     .home_heading_text {
-        font-size: 43.99px;
-        line-height: 52px;
+        font-size: 36px;
+        line-height:42px;
         margin-top: 25vh !important;
     }
 
@@ -1302,7 +1302,7 @@ p {
 
     .home_heading_text {
         margin-top: 18vh !important;
-        font-size: 35.99px;
+        font-size: 32.99px;
         line-height: 34px;
     }
 
