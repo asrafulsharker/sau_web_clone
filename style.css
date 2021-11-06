@@ -1709,7 +1709,7 @@ button:active {
     outline: none !important;
     border: none !important;
     font-weight: bold;
-    border-bottom: 6px solid #1882FF !important;
+    /* border-bottom: 6px solid #1882FF !important; */
 }
 
 .admission_bottom {
@@ -2267,7 +2267,7 @@ button:active {
     }
 
     .admission_btn:focus {
-        border-bottom: 2px solid red;
+        /* border-bottom: 2px solid red; */
     }
 }
 
