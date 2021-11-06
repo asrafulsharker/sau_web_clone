@@ -811,7 +811,8 @@ p {
 
     .logo_text {
         font-size: 11.191px;
-        line-height: 11px;
+        line-height: 12px;
+        margin-left: 0px;
     }
 
     .mujib_logo {
