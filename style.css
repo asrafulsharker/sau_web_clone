@@ -1021,7 +1021,7 @@ p {
     width: 191px;
     height: 61px;
     background: #54E346;
-    padding: 20px 51px;
+    padding: 15px 35px;
     text-decoration: none !important;
     margin-right: 10px;
 
@@ -1044,7 +1044,7 @@ p {
     width: 191px;
     height: 61px;
     border: 1px solid #54E346;
-    padding: 20px 51px;
+    padding: 15px 35px;
     text-decoration: none !important;
     margin-left: 10px;
 }
@@ -1601,7 +1601,7 @@ p {
 }
 
 #myBtnContainer .active {
-    border-bottom: 3px solid #1882FF !important;
+    border-bottom: 3px solid #049906 !important;
     font-weight: bold !important;
 }
 
@@ -1612,7 +1612,7 @@ p {
 }
 
 #eventmyBtnContainer .eventactive {
-    border-bottom: 3px solid #1882FF !important;
+    border-bottom: 3px solid #049906 !important;
     font-weight: bold !important;
 }
 
@@ -1670,7 +1670,7 @@ p {
 }
 
 .card_btn_achivement {
-    background: #1882FF;
+    background: #284E8D ;
 }
 
 .card-text {
@@ -3170,7 +3170,7 @@ button:active {
     }
 
     .notice_left_p1 {
-        margin-left: -15px;
+        margin-left: 0px;
     }
 
     .right_notice {
@@ -3178,16 +3178,19 @@ button:active {
     }
 
     .notice_line {
-        margin-left: -15px;
+        margin-left: 0px;
     }
 
     .notice_right_p1 {
         margin-top: 56px;
-        margin-left: -15px;
+        margin-left: 0px;
     }
 
     .latest_news_line {
-        margin-left: -15px;
+        margin-left: 0px;
+    }
+    .drop-down .options ul {
+        margin-top: 5% !important;
     }
 }
 
@@ -3218,6 +3221,10 @@ button:active {
         font-size: 12.272px;
         padding: 10px 20px;
     }
+    .drop-down .options ul {
+        margin-top: 5% !important;
+    }
+
 }
 
 @media screen and (max-width :360px) {
@@ -4593,7 +4600,16 @@ button:active {
 
 /* bottom resoinsve css start  */
 
-
+@media screen and (max-width :1420px) {
+    .footer_bottom_right {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 1px;
+        padding: 0px 10px;
+    }
+}
 @media screen and (max-width :800px) {
     .footer_bottom_right {
         flex-wrap: wrap;
