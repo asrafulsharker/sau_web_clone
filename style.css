@@ -4260,6 +4260,18 @@ button:active {
     margin-top: 10px;
 }
 
+.fa-facebook-f{
+    background-color: #1882FF;
+}
+.fa-twitter{
+    background-color: #60B0ED;
+}
+.fa-linkedin-in{
+    background-color: #1B70C4;
+}
+.fa-youtube{
+    background-color: #FF0000;
+}
 .footerBg {
     display: flex;
     justify-content: space-between;
@@ -4269,10 +4281,11 @@ button:active {
 .footerIcon i {
     text-align: right;
     padding: 11px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 0px 2px;
     width: 40px;
     color: white;
+    border-radius: 2px;
 }
 
 .footer_1st_col p {
