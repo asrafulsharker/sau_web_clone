@@ -2931,7 +2931,7 @@ button:active {
 .date_discription {
     display: flex;
     align-items: center;
-    height: 150px;
+    height: 140px;
 }
 
 
@@ -3074,7 +3074,7 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.01em;
     margin: 0 0 0px;
@@ -3155,7 +3155,17 @@ button:active {
 
 /* responsive notice start  */
 
-
+@media screen and (max-width :1000px) {
+    .notice_details_notice_P2 {
+        font-size: 16px;
+    }
+    .read_me p {
+        font-size: 12px;
+    }
+    .read_me{
+        padding: 0px 0px;
+    }
+}
 @media screen and (max-width :800px) {
     .notice_main {
         display: block;
