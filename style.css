@@ -223,7 +223,7 @@ p {
 }
 
 .left_nav {
-    flex: 4;
+    /* flex: 4; */
     display: flex;
     align-items: center;
     padding-left: 5%;
@@ -649,12 +649,12 @@ p {
     }
 
     .left_nav img {
-        height: 100px;
+        height: 60px;
     }
 
     .logo_text {
-        font-size: 16.191px;
-        line-height: 18px;
+        font-size: 12.191px;
+        line-height: 12px;
     }
 
     .mujib_logo {
@@ -869,8 +869,11 @@ p {
 @media screen and (max-width :420px) {
     .left_nav img {
         height: 40px !important;
+        
     }
-
+    .mujiblogo{
+        width: 70px;
+    }
     .logo_text {
         font-size: 10.191px !important;
         line-height: 10px !important;
