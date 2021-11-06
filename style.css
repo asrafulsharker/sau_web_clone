@@ -1342,7 +1342,11 @@ p {
     }
 }
 
-
+@media screen and (max-width :900px) {
+    .logo3{
+        display: none;
+    }
+}
 @media screen and (max-width :800px) {
     .home_bottom_arrow {
         padding-top: 27vh !important;
@@ -1360,7 +1364,9 @@ p {
         font-size: 30.99px;
         line-height: 32px;
     }
-
+    .mujiblogo{
+        display: none;
+    }
     .home_arrow_prev span img {
         height: 25px;
     }
