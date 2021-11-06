@@ -543,7 +543,7 @@ p {
 .nav_2ndlebel_option .nav_2ndlebel_option_add a {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
     /* letter-spacing: 0.01em; */
     text-transform: uppercase;
@@ -566,7 +566,7 @@ p {
 }
 
 .nav_bottom_btn {
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .nav_bottom_btn a {
@@ -4280,10 +4280,9 @@ button:active {
 
 .footerIcon i {
     text-align: right;
-    padding: 11px;
-    /* border: 1px solid white; */
+    padding: 9px;
     margin: 0px 2px;
-    width: 40px;
+    width: 35px;
     color: white;
     border-radius: 2px;
 }
@@ -4295,7 +4294,7 @@ button:active {
     font-size: 13.5719px;
     line-height: 3px;
     letter-spacing: 0.01em;
-    line-height: 15px !important;
+    line-height: 20px !important;
 
 }
 
