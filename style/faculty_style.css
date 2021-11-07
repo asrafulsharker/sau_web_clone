@@ -834,7 +834,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 37px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
@@ -844,6 +844,7 @@ p {
 .dept_home_left_item_top img {
     height: 20px !important;
     width: 30px !important;
+    display: none;
 }
 
 .dept_home_left_item_bottom {
@@ -1539,10 +1540,17 @@ p {
 }
 
 .aboutus-area .nav.nav-tabs li {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     position: relative;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 25px 11px;
+    color: #6a6a6a !important;
 }
-
+.aboutus-area .nav.nav-tabs li a{
+    color: black !important;
+}
 .aboutus-area .nav.nav-tabs li:before {
     position: absolute;
     content: "";
@@ -1594,56 +1602,62 @@ p {
 }
 
 .active a {
-    color: red;
+    color: #fff;
 }
 
 .active {
-    background-color: black;
-    padding: 5px 10px;
+    background-color: #007bff !important;
+    padding: 25px 11px;
+    border-radius: 5px;
 }
-#home .tabpannel_arrow{
+.tab_content_main{
+    background-color: #007bff !important;
+}
+#home .tabpannel_arrow {
     width: 0px;
     height: 0;
     border-top: 15px solid transparent;
-    border-right: 10px solid black;
+    border-right: 10px solid #007bff;
     border-bottom: 15px solid transparent;
     position: absolute;
     margin-left: -20px;
     margin-top: 0px;
 }
-#profile .tabpannel_arrow{
+
+#profile .tabpannel_arrow {
     width: 0px;
     height: 0;
     border-top: 15px solid transparent;
-    border-right: 10px solid black;
+    border-right: 10px solid #007bff;
     border-bottom: 15px solid transparent;
     position: absolute;
     margin-left: -20px;
-    margin-top: 80px;
+    margin-top: 105px;
 }
-#messages .tabpannel_arrow{
+
+#messages .tabpannel_arrow {
     width: 0px;
     height: 0;
     border-top: 15px solid transparent;
-    border-right: 10px solid black;
+    border-right: 10px solid #007bff;
     border-bottom: 15px solid transparent;
     position: absolute;
     margin-left: -20px;
-    margin-top: 165px;
+    margin-top: 210px;
 }
-#faculty .tabpannel_arrow{
+
+#faculty .tabpannel_arrow {
     width: 0px;
     height: 0;
     border-top: 15px solid transparent;
-    border-right: 10px solid black;
+    border-right: 10px solid #007bff;
     border-bottom: 15px solid transparent;
     position: absolute;
     margin-left: -20px;
-    margin-top: 250px;
+    margin-top: 315px;
 }
-.tabpannel_arrow {
-   
-}
+
+.tabpannel_arrow {}
 
 .tab-content {
     position: relative;
@@ -1656,8 +1670,8 @@ p {
 
 .aboutus-area .nav.nav-tabs li.active a {
     /* border: 1px solid #fff; */
-    color: red;
-    background-color: black;
+    color: #fff !important;
+    /* background-color: black; */
 }
 
 .aboutus-area .about-mobile {
@@ -1670,13 +1684,13 @@ p {
 }
 
 .aboutus-area .nav-tabs.four li.active:before {
-    background-color: #34B96D;
+    background-color: #0E4A0F;
 }
 
 .aboutus-area .text-content {
     line-height: 25px;
     font-size: 14px;
-    color: #4b4b4b;
+    color: #fff;
     font-weight: 500;
 }
 
