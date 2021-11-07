@@ -1204,7 +1204,7 @@ p {
 .glance_main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .glance_left {
@@ -1401,7 +1401,7 @@ p {
 
 .services_card {
     width: 31% !important;
-    margin: 0% 1% !important;
+    /* margin: 0% 1% !important; */
 }
 
 .services_arrow_p1 {
@@ -1620,7 +1620,10 @@ p {
 .active a {
     color: #fff;
 }
-
+.row{
+    margin-right: 0px !important;
+    justify-content: space-between;
+}
 .active {
     background-color: #007bff !important;
     padding: 25px 11px;
