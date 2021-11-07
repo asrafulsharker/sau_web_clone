@@ -1408,7 +1408,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 19.0268px;
+    font-size: 18.0268px;
     line-height: 22px;
     letter-spacing: 0.06em;
     color: #000000;
@@ -1419,8 +1419,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15.0943px;
-    line-height: 13px;
+    font-size: 14.0943px;
+    line-height: 20px;
     letter-spacing: 0.06em;
     color: #000000;
     margin-top: 8px;
@@ -1443,7 +1443,9 @@ p {
     color: #000000;
     margin-left: 10px;
 }
-
+.services_card_bottom_link img{
+    width: 12px;
+}
 .card-img-top {
     height: 130px !important;
 }
