@@ -31,7 +31,7 @@ label a {
 	background-color: #FCA22A;	
 }
 .aboutus-area .nav.nav-tabs li.active:before {
-	background-color: #FCA22A;
+	/* background-color: #FCA22A; */
 }
 .booking {
 	color: #FCA22A;
