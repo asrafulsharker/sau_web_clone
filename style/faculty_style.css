@@ -866,7 +866,7 @@ p {
     letter-spacing: 0.01em;
     border-bottom: 1px solid #BABABA;
     color: #000000;
-    padding: 8%;
+    padding: 5%;
 }
 
 .dept_home_left_item_bottom a:hover {
@@ -1017,7 +1017,7 @@ p {
     padding: 4%;
 }
 
-.dropdown_card a{
+.dropdown_card a {
     text-decoration: none;
     color: #000;
     border-bottom: 1px solid rgb(218, 215, 215);
@@ -1495,6 +1495,225 @@ p {
 
 /* services card responsive end  */
 
+/*--------------------------------------------------------------
+## About us Part
+--------------------------------------------------------------*/
+.aboutus-area {
+    padding: 75px 0 90px;
+}
+
+.aboutus-area .tab-list {
+    position: relative;
+}
+
+.aboutus-area .tab-list:before {
+    position: absolute;
+    content: "";
+    /* background-color: #EEEEEE; */
+    width: 1px;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+    right: 0px;
+}
+
+.nav {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+    .aboutus-area .tab-list:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .aboutus-area .tab-list:before {
+        background-color: transparent;
+    }
+}
+
+.aboutus-area .nav.nav-tabs {
+    border-bottom: none;
+    width: 100%;
+}
+
+.aboutus-area .nav.nav-tabs li {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.aboutus-area .nav.nav-tabs li:before {
+    position: absolute;
+    content: "";
+    /* background-color: #B6B6B6; */
+    /* width: 20px; */
+    /* height: 20px; */
+    /* right: -10px; */
+    /* top: 10px; */
+    /* border-radius: 50%; */
+    z-index: 999;
+    /* border: 5px solid #EEEEEE; */
+}
+
+@media screen and (max-width: 990px) {
+    .aboutus-area .nav.nav-tabs li:before {
+        /* top: 30px; */
+    }
+}
+
+.aboutus-area .nav.nav-tabs li:last-child::before {
+    top: auto;
+    bottom: 0;
+}
+
+.aboutus-area .nav.nav-tabs li:first-child::before {
+    /* top: 0; */
+    /* right: -10px; */
+}
+
+@media screen and (max-width: 990px) {
+    .aboutus-area .nav.nav-tabs li:first-child::before {
+        /* top: 30px; */
+    }
+}
+
+.aboutus-area .nav.nav-tabs li:last-child {
+    /* padding: 0; */
+}
+
+.aboutus-area .nav.nav-tabs a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6a6a6a;
+    text-decoration: none;
+}
+
+.aboutus-area .nav.nav-tabs a:last-child {
+    /* padding: 0 30px; */
+}
+
+.active a {
+    color: red;
+}
+
+.active {
+    background-color: black;
+    padding: 5px 10px;
+}
+#home .tabpannel_arrow{
+    width: 0px;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 0px;
+}
+#profile .tabpannel_arrow{
+    width: 0px;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 80px;
+}
+#messages .tabpannel_arrow{
+    width: 0px;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 165px;
+}
+#faculty .tabpannel_arrow{
+    width: 0px;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 250px;
+}
+.tabpannel_arrow {
+   
+}
+
+.tab-content {
+    position: relative;
+}
+
+.aboutus-area .nav.nav-tabs a:hover {
+    /* border: 1px solid #fff; */
+    background: none;
+}
+
+.aboutus-area .nav.nav-tabs li.active a {
+    /* border: 1px solid #fff; */
+    color: red;
+    background-color: black;
+}
+
+.aboutus-area .about-mobile {
+    width: 100%;
+    border: 2px solid #31386e;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.aboutus-area .nav-tabs.four li.active:before {
+    background-color: #34B96D;
+}
+
+.aboutus-area .text-content {
+    line-height: 25px;
+    font-size: 14px;
+    color: #4b4b4b;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 990px) {
+    .aboutus-area .text-content {
+        margin-bottom: 20px;
+    }
+}
+
+.aboutus-area .text-content {
+    padding: 0 10px;
+}
+
+.aboutus-area .text-content ul li,
+.aboutus-area .text-content ol li {
+    position: relative;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.aboutus-area .text-content ul li:before,
+.aboutus-area .text-content ol li:before {
+    position: absolute;
+    content: "";
+    background-color: #B6B6B6;
+    width: 8px;
+    height: 8px;
+    left: -25px;
+    top: 7px;
+    border-radius: 50%;
+}
+
+.aboutus-area .text-content>ul>li:first-child,
+.aboutus-area .text-content>ol>li:first-child {
+    margin-top: 0;
+}
+
 /* services css end  */
 
 
@@ -1834,7 +2053,7 @@ p {
         border-top: 0.5px solid #968787;
         margin-top: 8px;
         margin-top: 9px;
-padding-top: 8px;
+        padding-top: 8px;
     }
 
     /* .footer_bottom { */
