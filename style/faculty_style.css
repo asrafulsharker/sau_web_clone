@@ -673,9 +673,10 @@ p {
 
 /* nav popbar responsive css end  */
 
-/* .nav_pop_icon_coros{
-    z-index: -10; 
-} */
+.nav_pop_icon_coros{
+    z-index: 10; 
+    background-color: black !important;
+}
 
 /* nav css pobar end  */
 
@@ -892,7 +893,9 @@ p {
 
     color: #FFFFFF;
 }
-
+.faculty_home_right_top_cover img{
+    display: none;
+}
 .faculty_home_right_top_cover::after {
     content: "";
     background: url(../image/faculty_home_right_top_cover.png);
@@ -910,7 +913,7 @@ p {
 }
 
 .faculty_home_right_t_details {
-    background: #0E4A0F;
+    background: #153E90;
     display: flex;
     align-items: center;
     padding: 3%;
@@ -1545,7 +1548,7 @@ p {
 }
 
 .aboutus-area .nav.nav-tabs li {
-    margin-bottom: 30px;
+    margin: 10px 0px;
     position: relative;
     background-color: #fff;
     border: 1px solid gray;
@@ -1675,7 +1678,7 @@ p {
     border-bottom: 15px solid transparent;
     position: absolute;
     margin-left: -20px;
-    margin-top: 315px;
+    margin-top: 300px;
 }
 
 .tabpannel_arrow {}

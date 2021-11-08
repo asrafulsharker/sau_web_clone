@@ -748,6 +748,7 @@ p {
 
 .dept_cover_main img {
     width: 200px;
+    display: none;
 }
 
 .sau_dialog {
@@ -991,12 +992,15 @@ p {
     justify-content: center;
 }
 
+.our_single_component img{
+    height: 70px;
+}
 .our_strength_single {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 7% 5%;
+    padding: 3% 3%;
 }
 
 .highlights_components:hover {
@@ -1269,7 +1273,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 37px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
@@ -1301,7 +1305,7 @@ p {
     letter-spacing: 0.01em;
     border-bottom: 1px solid #BABABA;
     color: #000000;
-    padding: 8%;
+    padding: 5%;
 }
 
 .dept_home_left_item_bottom a:hover {
@@ -1703,12 +1707,14 @@ p {
     align-items: center;
     margin-top: 8px;
 }
-
+.services_card_bottom_link img{
+    height: 10px;
+}
 .services_card_bottom_link p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.06em;
     color: #000;
