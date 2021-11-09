@@ -1484,6 +1484,7 @@ p {
 .dept_home_left img {
     margin: 2px 0px 2px 0px;
     width: 100%;
+    display: none;
 }
 
 .dept_home_box img {
