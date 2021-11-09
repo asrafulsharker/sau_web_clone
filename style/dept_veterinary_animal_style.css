@@ -986,7 +986,7 @@ p {
 .our_strength_component {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -1208,6 +1208,103 @@ p {
     }
 }
 
+
+
+/* glance css start  */
+.glance {
+    padding: 20px 0px;
+}
+
+.glance_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.glance_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.glance_left_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+}
+
+.glance_left_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.464px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #000000;
+    text-align: center;
+}
+
+.glance_right img {
+    height: 160px !important;
+    padding: 3px;
+}
+
+
+.glance_left img {
+    height: 170px;
+    padding: 15px;
+}
+
+.glance_right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    width: 70% !important;
+}
+
+.glance_right img {
+    height: 100px;
+}
+
+/* glance responsive css start  */
+
+@media screen and (max-width :800px) {
+    .glance_main {
+        flex-wrap: wrap !important;
+    }
+
+    .glance_right img {
+        height: 100% !important;
+        width: 45%;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width :520px) {
+    .glance_right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width :500px) {
+    .glance_main {
+        display: block !important;
+    }
+}
+
+/* glance responsive css end  */
 /* our strength css end  */
 
 
@@ -1674,7 +1771,7 @@ p {
 }
 
 .card {
-    margin: 0px 1.5%;
+    /* margin: 0px 1.5%; */
 }
 
 .card-body {
