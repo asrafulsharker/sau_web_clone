@@ -32,13 +32,15 @@ p {
     padding-left: 5%;
     text-decoration: none !important;
 }
-
+.left_nav img{
+    height: 100px;
+}
 .logo_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 33.1915px;
-    line-height: 39px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #54E346;
@@ -56,8 +58,8 @@ p {
 .nav_icon_main {
     background-color: black;
     color: white;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     border: 1px solid #54E346;
     /* padding: 10; */
     display: flex;
@@ -84,12 +86,12 @@ p {
 
 @media screen and (max-width: 1280px) {
     .left_nav img {
-        height: 152px;
+        height: 100px;
     }
 
     .logo_text {
-        font-size: 29.191px;
-        line-height: 30px;
+        font-size: 24px;
+        line-height: 24px;
     }
 }
 
@@ -207,12 +209,12 @@ p {
     /* transform: translate(-50%, -50%); */
     border: 1px solid #54E346;
     transition-duration: 0.2s;
-    height: 85px;
+    height: 70px;
 }
 
 .search-bar a {
-    height: 85px;
-    width: 85px;
+    height: 70px;
+    width: 70px;
 }
 
 .textbox {
@@ -287,8 +289,8 @@ p {
 .nav_pop_icon a img {
     border: 1px solid #54E346;
     box-sizing: border-box;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     padding: 20px;
     margin-left: 15px;
 }
@@ -687,7 +689,7 @@ p {
 
 /* contact cover start css  */
 .contact_cover {
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .contact_cover_main {
@@ -962,8 +964,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 42.4769px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height: 36px;
     letter-spacing: 0.06em;
     color: #1882FF;
 }
@@ -984,16 +986,16 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 27.0806px;
+    font-size: 28px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #000000;
-
+    margin-top: 20px;
 
 }
 
 .undergradute_bottom ul li {
-    font-size: 20.0806px;
+    font-size: 24.0806px;
 }
 
 /* undergradute css end  */
@@ -1016,8 +1018,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 42.4769px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height:36px;
     letter-spacing: 0.06em;
     color: #54E346;
 }

@@ -761,7 +761,7 @@ p {
 .library_home_box {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background: #000;
     padding: 15px 20px 15px 15px;
     margin-bottom: 3px;
@@ -930,7 +930,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 22.224px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -1048,7 +1048,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 21.6196px;
+    font-size: 24px;
     line-height: 25px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -1059,7 +1059,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12.6115px;
+    font-size: 16.6115px;
     line-height: 25px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -1104,12 +1104,12 @@ p {
 .library_person_single_p2 {
     font-style: normal;
     font-weight: 300;
-    font-size: 13.1125px;
+    font-size: 16px;
     line-height: 15px;
     letter-spacing: 0.01em;
     color: #000000;
     /* margin: 5px 0px 0px 15px !important; */
-
+    margin-top: 5px;
 
 }
 
