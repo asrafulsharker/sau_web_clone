@@ -1137,7 +1137,7 @@ p {
 
     .t_details_heading {
         font-size: 18px;
-        line-height: 0px;
+        line-height: 20px;
     }
 
     .t_details_p {
@@ -1567,7 +1567,7 @@ p {
 }
 
 .highlights_components:hover {
-    background-color: #049906;
+    background-color:#007bff;
     color: #ffff;
 }
 
