@@ -11,10 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.row{
-    margin-right: 0px; 
-     margin-left: 0px;
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 0rem !important;
@@ -69,8 +70,8 @@ p {
 .nav_icon_main {
     background-color: black;
     color: white;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     border: 1px solid #54E346;
     /* padding: 10; */
     display: flex;
@@ -97,12 +98,12 @@ p {
 
 @media screen and (max-width: 1280px) {
     .left_nav img {
-        height: 152px;
+        height: 100px;
     }
 
     .logo_text {
-        font-size: 29.191px;
-        line-height: 30px;
+        font-size: 24px;
+        line-height: 24px;
     }
 }
 
@@ -220,12 +221,12 @@ p {
     /* transform: translate(-50%, -50%); */
     border: 1px solid #54E346;
     transition-duration: 0.2s;
-    height: 85px;
+    height: 70px;
 }
 
 .search-bar a {
-    height: 85px;
-    width: 85px;
+    height: 70px;
+    width: 70px;
 }
 
 .textbox {
@@ -302,8 +303,8 @@ p {
 .nav_pop_icon a img {
     border: 1px solid #54E346;
     box-sizing: border-box;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     padding: 20px;
     margin-left: 15px;
 }
@@ -716,6 +717,139 @@ p {
 /* nav css pobar end  */
 
 
+.faculty_home_right_top_cover {
+    height: 20vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.faculty_home_right_top_cover img {
+    display: none;
+}
+
+.faculty_home_right_top_cover::after {
+    content: "";
+    background: url(../image/faculty_home_right_top_cover.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.faculty_home_right_t_details {
+    background: #153E90;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    margin-top: 20px;
+}
+
+.faculty_home_right_t_details img {
+    height: 230px;
+}
+
+.t_details {
+    padding: 3%
+}
+
+.t_details_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.t_details_p span {
+    font-weight: bold !important;
+}
+
+.t_details_heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.t_discription {
+    padding: 5%;
+    border: 1px solid #C8BCBC;
+    box-sizing: border-box;
+}
+
+
+/* faculty home responsive  start  */
+@media screen and (max-width :880px) {
+    .faculty_home_right_t_details {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .t_details_p {
+        text-align: center;
+    }
+
+    .t_details_heading {
+        text-align: center;
+    }
+
+    .dropdown_single {
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width :520px) {
+    .dept_home_left_item {
+        display: none !important;
+    }
+
+    .sau_library_btn {
+        display: flex !important;
+        z-index: 1000 !important;
+    }
+
+    .faculty_home_right_top_cover {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .faculty_home_right_top_cover img {
+        height: 4px !important;
+
+    }
+
+    .faculty_home_main {
+        margin-top: 5vh;
+    }
+}
+
 
 
 
@@ -972,6 +1106,10 @@ p {
 /* welcome dean css end  */
 
 /* our strenght css start  */
+.our_strength {
+    margin-top: 20px;
+}
+
 .our_strength_p1 {
     font-family: Roboto;
     font-style: normal;
@@ -996,9 +1134,10 @@ p {
     justify-content: center;
 }
 
-.our_single_component img{
+.our_single_component img {
     height: 70px;
 }
+
 .our_strength_single {
     display: flex;
     align-items: center;
@@ -1011,9 +1150,11 @@ p {
     background-color: #049906;
     color: #ffff;
 }
-.highlights_components img{
+
+.highlights_components img {
     margin-right: 15px;
 }
+
 .highlights_components:onclick {
     background-color: #049906;
     color: #ffff;
@@ -1110,25 +1251,31 @@ p {
     color: #000000;
     margin-top: 10px;
 }
+
 @media screen and (max-width :900px) {
     .our_single_component img {
         height: 50px;
     }
+
     .our_single_component p {
         font-size: 50px;
     }
+
     .our_strength_single_p1 {
         font-size: 24.8135px;
         line-height: 10px;
     }
+
     .our_strength_single {
         padding: 4% 5%;
     }
+
     .dept_cover_main p {
         font-size: 32px;
         line-height: 40px;
     }
 }
+
 @media screen and (max-width :520px) {
     .dept_home_left {
         display: none !important;
@@ -1312,7 +1459,7 @@ p {
 
 
 .dept_home {
-    padding: 5vh 5vw 5vh 5vw;
+    padding: 15vh 5vw 5vh 5vw;
 }
 
 .dept_home_main {
@@ -1324,9 +1471,10 @@ p {
     margin: 0px 0px 15px 0px;
     font-size: 12px;
 }
-.dva_home_top_link img{
-    height: 12px ;
-        margin-bottom: 4px;
+
+.dva_home_top_link img {
+    height: 12px;
+    margin-bottom: 4px;
 }
 
 .dept_home_box {
@@ -1704,7 +1852,7 @@ p {
 .dept_green_campus_left {
     display: flex;
     align-items: center;
-    justify-content:start;
+    justify-content: start;
     flex-direction: column;
     padding: 0% 0%;
 }
@@ -1767,7 +1915,8 @@ p {
 .services {
     padding: 20px 0px;
 }
-.services_main{
+
+.services_main {
     justify-content: space-between !important;
 }
 
@@ -1809,9 +1958,11 @@ p {
     align-items: center;
     margin-top: 8px;
 }
-.services_card_bottom_link img{
+
+.services_card_bottom_link img {
     height: 10px;
 }
+
 .services_card_bottom_link p {
     font-family: Roboto;
     font-style: normal;
@@ -1825,6 +1976,12 @@ p {
 
 .card-img-top {
     height: 130px !important;
+}
+
+@media screen and (max-width :800px) {
+    .dept_home {
+        padding: 9vh 5vw 5vh 5vw;
+    }
 }
 
 @media screen and (max-width :520px) {
@@ -2230,7 +2387,7 @@ p {
         border-top: 0.5px solid #968787;
         margin-top: 8px;
         margin-top: 9px;
-padding-top: 8px;
+        padding-top: 8px;
     }
 
     /* .footer_bottom { */
