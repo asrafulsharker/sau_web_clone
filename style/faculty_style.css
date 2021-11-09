@@ -1585,8 +1585,22 @@ p {
 }
 
 
-
-
+.highlights_single{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    padding: 10% 0%;
+}
+.highlights_single img{
+    height: 30px !important;
+}
+.highlights_single p{
+    font-size: 18px;
+    margin: 0px 15px;
+}
+.highlights_single {
+    padding: 2% 0%;
+}
 @media screen and (max-width :1170px) {
     .highlights_components p {
         font-size: 22px;
