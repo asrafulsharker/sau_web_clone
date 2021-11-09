@@ -1083,6 +1083,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 15px;
 }
 .library_person_single img{
     width: 85%;
@@ -1105,7 +1106,7 @@ p {
     line-height: 15px;
     letter-spacing: 0.01em;
     color: #000000;
-    margin: 5px 0px 10px 15px !important;
+    /* margin: 5px 0px 0px 15px !important; */
 
 
 }
