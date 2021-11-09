@@ -1588,11 +1588,11 @@ p {
 .highlights_single{
     display: flex;
     align-items: center;
-    justify-content: ;
+
     padding: 10% 0%;
 }
 .highlights_single img{
-    height: 30px !important;
+    height: 25px !important;
 }
 .highlights_single p{
     font-size: 18px;
