@@ -771,7 +771,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.01em;
     margin-top: 10px;
@@ -833,6 +833,9 @@ p {
     line-height: 25px;
     letter-spacing: 0.01em;
     color: #413D3D;
+}
+.information_bottom_p span{
+    font-weight: bold !important;
 }
 
 /* responsive css start  */
