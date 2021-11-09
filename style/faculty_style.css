@@ -1061,6 +1061,10 @@ p {
     margin-top: 25px;
 }
 
+.t_details_p span{
+    font-weight: bold !important;
+}
+
 .t_details_heading {
     font-family: Roboto;
     font-style: normal;
