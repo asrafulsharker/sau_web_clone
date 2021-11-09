@@ -1540,7 +1540,9 @@ p {
     margin-top: 20px;
 }
 
-
+.highlights_components::before{
+    background-color: red;
+}
 .dept_home_highlights_p1 {
     font-family: Roboto;
     font-style: normal;
@@ -1593,6 +1595,8 @@ p {
 }
 .highlights_single img{
     height: 25px !important;
+    transform: rotate(270deg);
+    /* transform-origin: 20% 40%; */
 }
 .highlights_single p{
     font-size: 18px;
