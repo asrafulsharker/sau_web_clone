@@ -86,12 +86,12 @@ p {
 
 @media screen and (max-width: 1280px) {
     .left_nav img {
-        height: 152px;
+        height: 100px;
     }
 
     .logo_text {
-        font-size: 29.191px;
-        line-height: 30px;
+        font-size: 24.191px;
+        line-height: 24px;
     }
 }
 

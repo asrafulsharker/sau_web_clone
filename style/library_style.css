@@ -32,9 +32,11 @@ p {
     padding-left: 5%;
     text-decoration: none !important;
 }
-.left_nav img{
+
+.left_nav img {
     height: 100px;
 }
+
 .logo_text {
     font-family: Roboto;
     font-style: normal;
@@ -754,10 +756,12 @@ p {
     padding: 10px 0px 15px;
     font-size: 12px !important;
 }
-.library_membar_top_link img{
+
+.library_membar_top_link img {
     height: 12px;
-        margin-bottom: 4px;
+    margin-bottom: 4px;
 }
+
 .library_home_box {
     display: flex;
     align-items: center;
@@ -1087,7 +1091,8 @@ p {
     flex-direction: column;
     margin-top: 15px;
 }
-.library_person_single img{
+
+.library_person_single img {
     width: 85%;
 }
 
@@ -1110,19 +1115,24 @@ p {
     color: #000000;
     /* margin: 5px 0px 0px 15px !important; */
     margin-top: 5px;
+    margin-bottom: 5px;
 
 }
-.library_person_single_details{
+
+.library_person_single_details {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0px;
+    font-size: 12px;
 }
-.library_person_single_details img{
-    height: 15px !important;
-    width: 15px !important;
-    margin-right: 10px;
+
+.library_person_single_details img {
+    height: 9px !important;
+    width: 10px !important;
+    margin-right: 2px;
 }
+
 /* resoponsive start  */
 
 @media screen and (max-width :520px) {
@@ -1232,19 +1242,21 @@ p {
         width: 100%;
         padding: 5px;
     }
+
     .sau_library_btn {
         margin-left: 70%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
 }
 
 @media screen and (max-width :420px) {
     .sau_library_btn {
         margin-left: 60%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
 }
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 320px) {
     .sau_library_btn {
         margin-left: 50%;
         margin-bottom: 4%;
@@ -1592,7 +1604,7 @@ p {
         border-top: 0.5px solid #968787;
         margin-top: 8px;
         margin-top: 9px;
-padding-top: 8px;
+        padding-top: 8px;
     }
 
     /* .footer_bottom { */
