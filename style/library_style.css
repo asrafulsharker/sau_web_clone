@@ -1117,6 +1117,7 @@ p {
     margin-top: 5px;
     margin-bottom: 5px !important;
 
+
 }
 
 .library_person_single_details {
@@ -1125,6 +1126,7 @@ p {
     justify-content: center;
     margin-top: 0px;
     font-size: 12px;
+    font-weight: 300;
 }
 
 .library_person_single_details img {
