@@ -715,7 +715,15 @@ p {
 } */
 
 /* nav css pobar end  */
-
+.faculty_home_top_link{
+    display:flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+.faculty_home_top_link a img{
+    height: 15px;
+    margin-bottom:5px;
+}
 
 .faculty_home_right_top_cover {
     height: 20vh;
