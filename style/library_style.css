@@ -1112,7 +1112,17 @@ p {
     margin-top: 5px;
 
 }
-
+.library_person_single_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.library_person_single_details img{
+    height: 15px !important;
+    width: 15px !important;
+    margin-right: 10px;
+}
 /* resoponsive start  */
 
 @media screen and (max-width :520px) {
