@@ -1040,7 +1040,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.06em;
     margin-top: 30px;
@@ -1061,7 +1061,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 24.8074px;
+    font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.06em;
     margin-top: 30px;
@@ -1070,6 +1070,7 @@ p {
 
 .postgradute_left ul li {
     /* font-size: 20.0806px; */
+    font-size: 16px;
 }
 
 .postgradute_bottom {
