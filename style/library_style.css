@@ -1268,6 +1268,255 @@ p {
 /* library home css end  */
 
 
+/* our strenght css start  */
+.our_strength {
+    margin-top: 20px;
+}
+
+.our_strength_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.our_strength_component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our_single_component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_single_component img {
+    height: 70px;
+}
+
+.our_strength_single {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3% 3%;
+}
+
+.highlights_components:hover {
+    background-color: #049906;
+    color: #ffff;
+}
+
+.highlights_components img {
+    margin-right: 15px;
+}
+
+.highlights_components:onclick {
+    background-color: #049906;
+    color: #ffff;
+}
+
+.highlights_components p:hover {
+    color: #ffff;
+}
+
+.our_single_component p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 69.5952px;
+    line-height: 82px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 0% 15%;
+}
+
+.our_strength_single_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.8135px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    padding: 15px 0px;
+}
+
+.highlights_collapse_component {
+    display: flex;
+    align-items: center;
+    padding: 0 4%;
+    margin-top: 20px;
+}
+
+.highlights_collapse_component a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.2003px;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #049906;
+}
+
+.highlights_collapse_component img {
+    height: 150px;
+}
+
+.highlights_collapse_component_details {
+    flex: 4;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.highlights_collapse_component_details_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.9286px;
+    line-height: 33px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.highlights_collapse_component_details_p2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20.4058px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.highlights_collapse_component_details_p3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.4432px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+@media screen and (max-width :900px) {
+    .our_single_component img {
+        height: 50px;
+    }
+
+    .our_single_component p {
+        font-size: 50px;
+    }
+
+    .our_strength_single_p1 {
+        font-size: 24.8135px;
+        line-height: 10px;
+    }
+
+    .our_strength_single {
+        padding: 4% 5%;
+    }
+
+    .dept_cover_main p {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width :520px) {
+    .dept_home_left {
+        display: none !important;
+    }
+
+    .our_strength_p1 {
+        font-size: 18px;
+    }
+
+    .our_single_component img {
+        height: 70px;
+    }
+
+    .our_strength_component {
+        flex-wrap: wrap;
+    }
+
+    .our_strength_single {
+        width: 100%;
+    }
+
+    .our_single_component img {
+        height: 50px;
+    }
+
+    .our_single_component p {
+        font-size: 50px;
+    }
+
+    .our_strength_single_p1 {
+        font-size: 18px;
+        padding: 0px 0px;
+    }
+
+    .our_strength_single {
+        padding: 2% 5%;
+    }
+
+    .dept_home_highlights_p1 {
+        font-size: 18px !important;
+    }
+
+    .highlights_components p {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        padding-right: 0% !important;
+        padding: 9px !important;
+    }
+
+    .highlights_components img {
+        padding: 10px !important;
+    }
+
+    .dept_green_campus_main {
+        flex-wrap: wrap !important;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+
+    .services {
+        padding: 10px 0px !important;
+    }
+
+    .card-img-top {
+        height: 170px !important;
+    }
+
+    .dvm_link {
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .welcome_dean_left img {
+        margin: 10px;
+    }
+}
 
 
 /* start footer section--- */
