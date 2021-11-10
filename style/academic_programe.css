@@ -1045,6 +1045,7 @@ p {
     letter-spacing: 0.06em;
     margin-top: 30px;
     color: #000000;
+    margin-bottom: 10px !important;
 }
 
 .postgradute_item ul {
@@ -1066,6 +1067,7 @@ p {
     letter-spacing: 0.06em;
     margin-top: 30px;
     color: #000000;
+    margin-bottom: 10px !important;
 }
 
 .postgradute_left ul li {
