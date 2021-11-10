@@ -1115,7 +1115,7 @@ p {
     color: #000000;
     /* margin: 5px 0px 0px 15px !important; */
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
 
 }
 
