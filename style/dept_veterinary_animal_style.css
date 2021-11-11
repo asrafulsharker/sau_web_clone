@@ -1765,6 +1765,7 @@ p {
     text-align: center;
     letter-spacing: 0.01em;
     color: #000000;
+    margin-bottom: 30px !important;
 }
 
 .dept_notice_details_notice_P {
