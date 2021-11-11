@@ -1090,6 +1090,7 @@ p {
     justify-content: center;
     flex-direction: column;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .library_person_single img {
