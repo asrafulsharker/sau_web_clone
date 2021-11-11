@@ -764,7 +764,7 @@ p {
 }
 
 .faculty_home_right_t_details {
-    background: #153E90;
+    background: #0E4A0F;
     display: flex;
     align-items: center;
     padding: 3%;
@@ -1115,7 +1115,7 @@ p {
 
 /* our strenght css start  */
 .our_strength {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .our_strength_p1 {
@@ -1698,6 +1698,9 @@ p {
 
 .dept_calander_front_card_news {
     background-color: #049906 !important;
+}
+.dept_notice{
+    margin-top: 20px;
 }
 
 .dept_notice_left {
