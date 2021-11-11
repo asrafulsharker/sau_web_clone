@@ -1818,15 +1818,14 @@ margin-bottom: 20px !important;
 
 .dept_home_highlights_p1 {
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 32.9697px;
-line-height: 57px;
-letter-spacing: 0.01em;
-text-decoration-line: underline;
-margin-bottom: 20px;
-color: #1882FF;
-text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
 }
 .dept_home_highlights_p1_notice{
     font-family: Roboto;
