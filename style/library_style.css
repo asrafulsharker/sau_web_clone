@@ -1082,7 +1082,17 @@ p {
     justify-content: space-between;
     margin: 20px 0px;
 }
-
+.library_person_heading{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
 .library_person_single {
     width: 24.5%;
     display: flex;
