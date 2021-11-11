@@ -806,6 +806,11 @@ p {
     justify-content: center;
 }
 
+.inter_card_main{
+    display: flex;
+    justify-content: space-between;
+}
+
 .card {
     margin: 0px 1.6%;
 }
