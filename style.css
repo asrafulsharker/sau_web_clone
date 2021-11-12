@@ -537,7 +537,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     font-family: Roboto;
-    margin: 30px 0% 0% 0%;
+    margin: 40px 0% 0% 0%;
 }
 
 .nav_2ndlebel_option .nav_2ndlebel_option_add a {
@@ -566,7 +566,7 @@ p {
 }
 
 .nav_bottom_btn {
-    margin-top: 5%;
+    margin-top: 40px;
 }
 
 .nav_bottom_btn a {
