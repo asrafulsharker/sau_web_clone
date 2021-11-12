@@ -32,13 +32,15 @@ p {
     padding-left: 5%;
     text-decoration: none !important;
 }
-
+.left_nav img{
+    height: 100px;
+}
 .logo_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 33.1915px;
-    line-height: 39px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #54E346;
@@ -56,8 +58,8 @@ p {
 .nav_icon_main {
     background-color: black;
     color: white;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     border: 1px solid #54E346;
     /* padding: 10; */
     display: flex;
@@ -84,12 +86,12 @@ p {
 
 @media screen and (max-width: 1280px) {
     .left_nav img {
-        height: 152px;
+        height: 100px;
     }
 
     .logo_text {
-        font-size: 29.191px;
-        line-height: 30px;
+        font-size: 24px;
+        line-height: 24px;
     }
 }
 
@@ -207,12 +209,12 @@ p {
     /* transform: translate(-50%, -50%); */
     border: 1px solid #54E346;
     transition-duration: 0.2s;
-    height: 85px;
+    height: 70px;
 }
 
 .search-bar a {
-    height: 85px;
-    width: 85px;
+    height: 70px;
+    width: 70px;
 }
 
 .textbox {
@@ -287,8 +289,8 @@ p {
 .nav_pop_icon a img {
     border: 1px solid #54E346;
     box-sizing: border-box;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     padding: 20px;
     margin-left: 15px;
 }
@@ -699,7 +701,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 48px;
     line-height: 84px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
@@ -716,7 +718,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 30.8702px;
+    font-size: 32px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
@@ -816,7 +818,7 @@ p {
 }
 
 .card img {
-    height: 45% !important;
+    /* height: 45% !important; */
 }
 
 .card-body {
@@ -851,7 +853,9 @@ p {
     align-items: center;
     margin-top: 8px;
 }
-
+.inter_card_bottom_link img{
+    height: 10px;
+}
 .inter_card_bottom_link p {
     font-family: Roboto;
     font-style: normal;
@@ -864,7 +868,7 @@ p {
 }
 
 .card-img-top {
-    height: 130px !important;
+    /* height: 130px !important; */
 }
 
 @media screen and (max-width :800px) {
@@ -899,7 +903,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 32px;
     line-height: 75px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
@@ -976,7 +980,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 32px;
     line-height: 56px;
     text-align: center;
     color: #1D1D1D;
