@@ -209,24 +209,24 @@ p {
 
 
 .search-bar {
-    margin: 0;
+    /* margin: 0;
     padding: 0;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     /* top: 50%;
     left: 50%; */
     /* position: absolute; */
     /* transform: translate(-50%, -50%); */
-    border: 1px solid #54E346;
+    /* border: 1px solid #54E346;
     transition-duration: 0.2s;
-    height: 70px;
+    height: 70px; */
 }
 
 .search-bar a {
-    height: 70px;
-    width: 70px;
+    /* height: 70px;
+    width: 70px; */
 }
 
 .textbox {
@@ -273,39 +273,41 @@ p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 800;
+    height: 30px;
 }
 
-.search-bar:hover>.textbox {
+/* .search-bar:hover>.textbox {
     padding: 0px 10px 0px 10px;
     width: 100%;
     transition-duration: 0.8s;
-}
+} */
 
 .search-bar:hover>.search-btn {
     /* border-left: 5px black solid; */
-    transition-duration: 0.8s;
+    /* transition-duration: 0.8s; */
 }
 
 .search-btn:hover {
     /* background-color: black; */
-    transition-duration: 0.8s;
+    /* transition-duration: 0.8s; */
 }
 
-.search-btn:hover>.search_img {
+/* .search-btn:hover>.search_img {
     color: white;
     transition-duration: 0.8s;
-}
+} */
 
 .search_img {
     /* background-color: red; */
+    height: 30px;
 }
 
 .nav_pop_icon a img {
     border: 1px solid #54E346;
     box-sizing: border-box;
-    width: 70px;
-    height: 70px;
-    padding: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
     margin-left: 15px;
 }
 
@@ -327,22 +329,22 @@ p {
     color: #FFFFFF;
     border-bottom: 1px solid #54E346;
     margin-right: 40px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .nav_2ndlebel_option {
     display: flex;
     flex-wrap: wrap;
     font-family: Roboto;
-    margin: 5% 0% 0% 0%;
+    margin: 30px 0% 0% 0%;
 }
 
 .nav_2ndlebel_option .nav_2ndlebel_option_add a {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25px;
-    letter-spacing: 0.01em;
+    /* letter-spacing: 0.01em; */
     text-transform: uppercase;
     color: #FFFFFF;
     margin-right: 50px;
@@ -354,6 +356,8 @@ p {
     margin-right: 45px;
 }
 
+.nav_2ndlebel_option {}
+
 .nav_2ndlebel_option_add {
     display: flex;
     align-items: center;
@@ -361,7 +365,7 @@ p {
 }
 
 .nav_bottom_btn {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .nav_bottom_btn a {
@@ -401,6 +405,28 @@ p {
     cursor: pointer;
     /* z-index: 60000; */
 }
+.nav_label_one {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.nav_label_two {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 995px OR max-height: 580px) {
+    .nav_main_options a {
+        margin-top: 12px;
+    }
+
+    .nav_2ndlebel_option {
+        margin: 4% 0% 0% 0%;
+    }
+}
 
 @media screen and (max-width :1024px) {
     .nav_main_options {
@@ -431,15 +457,7 @@ p {
 /* nav popbar responsive css start  */
 @media screen and (max-width :800px) {
     .nav_main {
-        height: 8vh;
-    }
-
-    .dept_cover_main p {
-        font-size: 32px !important;
-        line-height: 36px !important;
-        text-align: center;
-        letter-spacing: 0.06em;
-        padding-top: 70px !important;
+        height: 20vh;
     }
 
     .left_nav img {
@@ -447,8 +465,8 @@ p {
     }
 
     .logo_text {
-        font-size: 16.191px;
-        line-height: 18px;
+        font-size: 12.191px;
+        line-height: 12px;
     }
 
     .mujib_logo {
@@ -493,32 +511,11 @@ p {
     .home_btn {
         margin-top: 52vh !important;
     }
-
-    .search-bar a {
-        height: 55px;
-        width: 55px;
-    }
-
-    .search-bar {
-        height: 55px;
-    }
-
-    .nav_icon_main {
-        height: 55px;
-        width: 55px;
-    }
-
-    .nav_pop_icon a img {
-        width: 55px;
-        height: 55px;
-        padding: 10px;
-        margin-left: 15px;
-    }
 }
 
 @media screen and (max-width :550px) {
     .nav_pop_icon {
-        padding: 8px 0px;
+        padding: 20px 0px;
     }
 
     .nav_pop_icon a img {
@@ -528,7 +525,12 @@ p {
         margin-left: 5px;
     }
 
-    .search-bar {
+    .logo_text {
+        font-size: 12.191px;
+        line-height: 12px;
+    }
+
+    /* .search-bar {
         height: 45px !important;
     }
 
@@ -539,10 +541,10 @@ p {
     .search-bar a {
         height: 45px !important;
         width: 45px !important;
-    }
+    } */
 
     .addbar {
-        display: none;
+        /* display: none; */
     }
 
     .nav_pop_bar_main {
@@ -604,6 +606,10 @@ p {
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
     }
+
+    .search_img {
+        height: 20px;
+    }
 }
 
 @media screen and (max-width :420px) {
@@ -617,7 +623,8 @@ p {
 
     .logo_text {
         font-size: 11.191px;
-        line-height: 11px;
+        line-height: 12px;
+        margin-left: 0px;
     }
 
     .mujib_logo {
@@ -675,8 +682,11 @@ p {
 @media screen and (max-width :420px) {
     .left_nav img {
         height: 40px !important;
+        
     }
-
+    .mujiblogo{
+        width: 70px;
+    }
     .logo_text {
         font-size: 10.191px !important;
         line-height: 10px !important;
@@ -715,6 +725,9 @@ p {
 } */
 
 /* nav css pobar end  */
+
+
+
 .faculty_home_top_link{
     display:flex;
     align-items: center;
