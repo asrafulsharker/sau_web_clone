@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -11,6 +12,7 @@ p {
     margin-top: 0;
     margin-bottom: 0rem !important;
 }
+
 
 .nav_main {
     display: flex;
@@ -825,6 +827,7 @@ p {
 
 .address_part1 p {
     margin-bottom: 15px !important;
+    line-height: 22px;
 }
 
 .address_part2 {
