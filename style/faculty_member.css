@@ -37,11 +37,15 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 33.1915px;
-    line-height: 39px;
+    font-size: 24px;
+    line-height: 24px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #54E346;
+}
+
+.left_nav img {
+    height: 100px;
 }
 
 .right_nav {
@@ -56,8 +60,8 @@ p {
 .nav_icon_main {
     background-color: black;
     color: white;
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     border: 1px solid #54E346;
     /* padding: 10; */
     display: flex;
@@ -195,24 +199,24 @@ p {
 
 
 .search-bar {
-    /* margin: 0;
+    margin: 0;
     padding: 0;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     /* top: 50%;
     left: 50%; */
     /* position: absolute; */
     /* transform: translate(-50%, -50%); */
-    /* border: 1px solid #54E346;
+    border: 1px solid #54E346;
     transition-duration: 0.2s;
-    height: 70px; */
+    height: 70px;
 }
 
 .search-bar a {
-    /* height: 70px;
-    width: 70px; */
+    height: 70px;
+    width: 70px;
 }
 
 .textbox {
@@ -259,41 +263,39 @@ p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 800;
-    height: 30px;
 }
 
-/* .search-bar:hover>.textbox {
+.search-bar:hover>.textbox {
     padding: 0px 10px 0px 10px;
     width: 100%;
     transition-duration: 0.8s;
-} */
+}
 
 .search-bar:hover>.search-btn {
     /* border-left: 5px black solid; */
-    /* transition-duration: 0.8s; */
+    transition-duration: 0.8s;
 }
 
 .search-btn:hover {
     /* background-color: black; */
-    /* transition-duration: 0.8s; */
+    transition-duration: 0.8s;
 }
 
-/* .search-btn:hover>.search_img {
+.search-btn:hover>.search_img {
     color: white;
     transition-duration: 0.8s;
-} */
+}
 
 .search_img {
     /* background-color: red; */
-    height: 30px;
 }
 
 .nav_pop_icon a img {
     border: 1px solid #54E346;
     box-sizing: border-box;
-    width: 60px;
-    height: 60px;
-    padding: 15px;
+    width: 70px;
+    height: 70px;
+    padding: 20px;
     margin-left: 15px;
 }
 
@@ -315,22 +317,22 @@ p {
     color: #FFFFFF;
     border-bottom: 1px solid #54E346;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .nav_2ndlebel_option {
     display: flex;
     flex-wrap: wrap;
     font-family: Roboto;
-    margin: 30px 0% 0% 0%;
+    margin: 5% 0% 0% 0%;
 }
 
 .nav_2ndlebel_option .nav_2ndlebel_option_add a {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
-    /* letter-spacing: 0.01em; */
+    letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-right: 50px;
@@ -342,8 +344,6 @@ p {
     margin-right: 45px;
 }
 
-.nav_2ndlebel_option {}
-
 .nav_2ndlebel_option_add {
     display: flex;
     align-items: center;
@@ -351,7 +351,7 @@ p {
 }
 
 .nav_bottom_btn {
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .nav_bottom_btn a {
@@ -391,28 +391,6 @@ p {
     cursor: pointer;
     /* z-index: 60000; */
 }
-.nav_label_one {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-}
-
-.nav_label_two {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-
-@media screen and (max-width: 995px OR max-height: 580px) {
-    .nav_main_options a {
-        margin-top: 12px;
-    }
-
-    .nav_2ndlebel_option {
-        margin: 4% 0% 0% 0%;
-    }
-}
 
 @media screen and (max-width :1024px) {
     .nav_main_options {
@@ -447,12 +425,12 @@ p {
     }
 
     .left_nav img {
-        height: 60px;
+        height: 100px;
     }
 
     .logo_text {
-        font-size: 12.191px;
-        line-height: 12px;
+        font-size: 16.191px;
+        line-height: 18px;
     }
 
     .mujib_logo {
@@ -501,7 +479,7 @@ p {
 
 @media screen and (max-width :550px) {
     .nav_pop_icon {
-        padding: 20px 0px;
+        padding: 8px 0px;
     }
 
     .nav_pop_icon a img {
@@ -511,12 +489,7 @@ p {
         margin-left: 5px;
     }
 
-    .logo_text {
-        font-size: 12.191px;
-        line-height: 12px;
-    }
-
-    /* .search-bar {
+    .search-bar {
         height: 45px !important;
     }
 
@@ -527,10 +500,10 @@ p {
     .search-bar a {
         height: 45px !important;
         width: 45px !important;
-    } */
+    }
 
     .addbar {
-        /* display: none; */
+        display: none;
     }
 
     .nav_pop_bar_main {
@@ -592,9 +565,11 @@ p {
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
     }
+}
 
-    .search_img {
-        height: 20px;
+@media screen and (max-width :520px) {
+    .nav_main {
+        height: 8vh !important;
     }
 }
 
@@ -609,8 +584,7 @@ p {
 
     .logo_text {
         font-size: 11.191px;
-        line-height: 12px;
-        margin-left: 0px;
+        line-height: 11px;
     }
 
     .mujib_logo {
@@ -668,11 +642,8 @@ p {
 @media screen and (max-width :420px) {
     .left_nav img {
         height: 40px !important;
-        
     }
-    .mujiblogo{
-        width: 70px;
-    }
+
     .logo_text {
         font-size: 10.191px !important;
         line-height: 10px !important;
@@ -706,15 +677,144 @@ p {
 
 /* nav popbar responsive css end  */
 
+.nav_pop_icon_coros {
+    z-index: 10;
+    background-color: black !important;
+}
+
+/* nav popbar responsive css end  */
+
 /* .nav_pop_icon_coros{
     z-index: -10; 
 } */
 
 /* nav css pobar end  */
+.dept_home_left_item_top {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 4%;
+}
+
+.dept_home_left_item_top p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 80%;
+}
+
+.dept_home_left_item_top img {
+    height: 20px !important;
+    width: 30px !important;
+    display: none;
+}
+
+.dept_home_left_item_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.dept_home_left_item_bottom a {
+    background: #E5E5E5;
+    width: 100%;
+    text-decoration: none !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    border-bottom: 1px solid #BABABA;
+    color: #000000;
+    padding: 5%;
+}
+
+.dept_home_left_item_bottom a:hover {
+    background-color: #007bff;
+    color: #ffff;
+}
+.mfp-close {
+    color: #ffff;
+    font-size: 50px;
+}
+
+.mfp-close:hover {
+    color: #049906;
+}
+
+.sau_library_btn {
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #000;
+    border: 4px solid green;
+    margin: 1%;
+    text-decoration: none !important;
+    font-weight: bold;
+    display: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sau_library_btn:hover {
+    color: #ffff;
+}
 
 
+.sau_library_btn:hover {
+    color: #ffff;
+}
+.sau_dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #141414 !important;
+}
 
+.sau_dialog h1 {
+    color: #049906;
+}
 
+.sau_dialog a {
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+    width: 270px;
+    text-align: center;
+}
+
+.sau_dialog a:hover {
+    color: #ffff;
+    background-color: #049906;
+}
+@media screen and (max-width :520px) {
+    .dept_home_left_item {
+        display: none !important;
+    }
+
+    .sau_library_btn {
+        display: flex !important;
+        z-index: 1000 !important;
+    }
+}
 /* faculty membarv css start  */
 
 

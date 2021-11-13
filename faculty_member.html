@@ -21,7 +21,7 @@
 
 
     <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" type="text/css" href="./style/magbetic_popup.css" />
     <link rel="icon" href="./image/sau_logo.png" type="image/gif" sizes="16x16">
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="./style/faculty_member.css">
@@ -47,7 +47,7 @@
                 </div> -->
                 <div class="search-bar addbar">
                     <input type="text" class="textbox" placeholder="type here..." />
-                    <a class="search-btn " href="#" >
+                    <a class="search-btn " href="#">
                         <img class="search_img" src="./image/search_icon.png" alt="">
                     </a>
                 </div>
@@ -133,7 +133,36 @@
 
             <div class="row">
                 <div class="faculty_membar_left col-md-3">
-                    <p>
+                    <a href="#small-dialog" class=" popup-with-move-anim  sau_library_btn">SAU Library</a>
+                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide sau_dialog">
+                        <h1>SAU Library</h1>
+                        <a href="">Home</a>
+                        <a href="">Home</a>
+                        <a href="">Home</a>
+                        <a href="">Home</a>
+                        <a href="">Home</a>
+                    </div>
+                    <div class="dept_home_left_item">
+                        <div class="dept_home_left_item_top">
+                            <p>Navigate Faculty</p>
+                            <img src="./image/down_arrow.png" alt="">
+                        </div>
+                        <div class="dept_home_left_item_bottom">
+                            <a href="">CHANCELLOR</a>
+                            <a href="">VICE-CHANCELLOR</a>
+                            <a href="">TREASURER OFFICE</a>
+                            <a href="">DEAN COUNCIL</a>
+                            <a href="">PROVOST COUNCIL</a>
+                            <a href="">EXCUTIVE COMMITTE</a>
+                            <a href="">PROCTOR OFFICE</a>
+                            <a href="">CENTRAL OFFICE</a>
+                            <a href="">CENTRAL STORE</a>
+                            <a href="">SEQURITY SECTION</a>
+                            <a href="">ICT CELL</a>
+                        </div>
+                        <!-- Default dropright button -->
+                    </div>
+                    <!-- <p>
                         <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
                             aria-controls="multiCollapseExample1">
                             <div class="faculty_agriculture_box contentB">
@@ -144,8 +173,8 @@
 
                             </div>
                         </a>
-                    </p>
-                    <div class="row">
+                    </p> -->
+                    <!-- <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
                                 <div class="card ">
@@ -168,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
 
                     <p>
@@ -682,6 +711,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js/magnetic popup.min.js"></script>
     <script type="text/javascript">
         // pop bar js 
 
@@ -725,6 +755,75 @@
         $('.popover-dismiss').popover({
             trigger: 'focus'
         })
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+
+
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
+
     </script>
 
 </body>
