@@ -866,9 +866,8 @@ p {
 }
 
 
-
-.view_gallery {
-    background: #000000;
+.view_gallery_div{
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -876,13 +875,20 @@ p {
     line-height: 27px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-    padding: 12px 35px;
+   
         text-decoration: none !important;
-        margin: 5%;
+        margin: 1%;
         text-align: center;
         align-items: center;
         justify-content: center;
         display: flex;
+}
+.view_gallery {
+text-align: center;
+background: #000000;
+padding: 12px 35px;
+text-decoration: none;
+color: #fff;
 }
 
 .view_gallery:hover {

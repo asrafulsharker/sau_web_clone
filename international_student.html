@@ -341,6 +341,12 @@
                         professional skills and capabilities “</p>
                 </div>
             </div>
+            <div class="home_arrow_prev">
+                <span><img src="./image/arrow_next_a.png"></span>
+            </div>
+            <div class="home_arrow_next">
+                <span><img src="./image/arrow_prev_a.png"></span>
+            </div>
         </div>
     </section>
     <!-- testimonial end  -->
@@ -556,10 +562,10 @@
 
         $(function () {
             $('.testimonial_slider').slick({
-                // prevArrow: '.home_arrow_prev',
-                // nextArrow: '.home_arrow_next',
+                prevArrow: '.home_arrow_prev',
+                nextArrow: '.home_arrow_next',
                 dots: false,
-                arrows: false,
+                arrows: true,
                 infinite: true,
                 speed: 300,
                 slidesToShow: 1,
