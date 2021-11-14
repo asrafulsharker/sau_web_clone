@@ -695,13 +695,15 @@ p {
     background-color: #000000;
     padding: 4%;
 }
-
+.dept_home_left_item_down{
+    margin-top: 20px;
+}
 .dept_home_left_item_top p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
-    line-height: 37px;
+    line-height: 22px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     width: 80%;
@@ -819,7 +821,7 @@ p {
 
 
 .faculty_membar {
-    margin-top: 20vh;
+    margin-top: 15vh;
     padding: 0vw 5vw 0vw 5vw;
 }
 
@@ -840,6 +842,7 @@ p {
     padding: 15px 20px 15px 15px;
     margin-bottom: 3px;
     border-bottom: 4px solid #187AF1;
+    display: none;
 }
 
 .faculty_agriculture_box a {
@@ -905,6 +908,9 @@ p {
 @media screen and (max-width: 800px) {
     .faculty_membar{
         margin-top: 8vh;
+    }
+    .faculty_agriculture_box{
+        display: flex;
     }
 }
 
@@ -985,6 +991,7 @@ p {
 
 .card {
     border: none !important;
+    width: 100%;
 }
 
 /* check box css start  */
