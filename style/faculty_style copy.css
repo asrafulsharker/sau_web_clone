@@ -920,7 +920,7 @@ p {
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
-    line-height: 37px;
+    line-height: 22px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     width: 80%;
@@ -989,6 +989,9 @@ p {
 }
 .contentBx {
     position: relative;
+    padding: 3%;
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #BABABA;
 }
 
 .label {
@@ -999,7 +1002,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15.2644px;
+    font-size: 18.2644px;
     line-height: 18px;
 }
 
@@ -1033,6 +1036,7 @@ p {
 .contentBx.active_bg .content {
     height: 150px;
     padding: 10px;
+    background-color: #E5E5E5;
 }
 
 
