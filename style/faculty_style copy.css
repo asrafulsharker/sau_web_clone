@@ -987,6 +987,239 @@ p {
     display: flex;
     align-items: center;
 }
+.contentBx {
+    position: relative;
+}
+
+.label {
+    padding: 10px;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.2644px;
+    line-height: 18px;
+}
+
+
+
+.label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.contentBx.active_bg .label::before {
+    content: 'x' !important;
+    z-index: 10;
+    top: 11%;
+    font-size: 25px;
+}
+
+.content {
+    position: relative;
+    background-color: #ffff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+.contentBx.active_bg .content {
+    height: 150px;
+    padding: 10px;
+}
+
+
+.contentB.active_bg .label::before {
+    content: 'x' !important;
+    z-index: 10;
+    top: 11%;
+    /* color: red; */
+    font-size: 25px;
+}
+.dept_home_left_item_down{
+    margin-top: 20px;
+}
+.conten {
+    position: relative;
+    background-color: #ffff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+
+.contentB.active_bg .conten {
+    height: 150px;
+    padding: 10px;
+}
+
+.card {
+    border: none !important;
+    width: 100%;
+}
+.toggle {
+    --uiToggleSize: var(--toggleSize, 1.25rem);
+    --uiToggleBorderWidth: var(--toggleBorderWidth, 2px);
+    --uiToggleColor: var(--toggleColor, #222);
+
+    display: var(--toggleDisplay, inline-flex);
+    position: relative;
+}
+
+.toggle__input {
+    width: var(--uiToggleSize);
+    height: var(--uiToggleSize);
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+
+.toggle__label {
+    display: inline-flex;
+    min-height: var(--uiToggleSize);
+    padding-left: calc(var(--uiToggleSize) + var(--toggleIndent, .4em));
+}
+
+.toggle__input:not(:disabled)~.toggle__label {
+    cursor: pointer;
+}
+
+
+.toggle__label::after {
+    content: "";
+    box-sizing: border-box;
+    width: 1em;
+    height: 1em;
+    font-size: var(--uiToggleSize);
+    /* 1 */
+
+    background-color: transparent;
+    border: var(--uiToggleBorderWidth) solid var(--uiToggleColor);
+    border: 0.734513px solid #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.toggle__input:checked~.toggle__label::after {
+    background-color: var(--uiToggleColor);
+}
+
+.toggle__text {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.2119px;
+    line-height: 13px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.toggle__label::before {
+    content: "";
+    width: 0;
+    height: 0;
+    font-size: var(--uiToggleSize);
+    /* 1 */
+
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-color: var(--toggleArrowColor, #fff);
+
+    position: absolute;
+    top: .5428em;
+    left: .25em;
+    z-index: 3;
+
+    transform-origin: left top;
+    transform: rotate(-40deg) skew(10deg);
+}
+
+.toggle__input:checked~.toggle__label::before {
+    --uiToggleArrowWidth: var(--toggleArrowWidth, 2px);
+
+    width: .4em;
+    height: .2em;
+    border-left-width: var(--uiToggleArrowWidth);
+    border-bottom-width: var(--uiToggleArrowWidth);
+}
+
+.toggle:focus-within {
+    outline: var(--toggleOutlineWidthFocus, 3px) solid var(--toggleOutlineColorFocus, currentColor);
+    outline-offset: var(--toggleOutlineOffsetFocus, 5px);
+}
+
+/* disabled state */
+
+.toggle__input:disabled~.toggle__label {
+    opacity: var(--toggleOpacityDisabled, .24);
+    cursor: var(--toggleCursorDisabled, not-allowed);
+    user-select: none;
+}
+
+
+
+.toggle__label::after {
+    border-radius: var(--toggleBorderRadius, 2px);
+}
+
+
+
+.toggle__input:not(:disabled)~.toggle__label::before {
+    will-change: width, height;
+    opacity: 0;
+}
+
+.toggle__input:not(:disabled):checked~.toggle__label::before {
+    opacity: 1;
+    transition: opacity .1s ease-out .25s, width .1s ease-out .5s, height .2s ease-out .3s;
+}
+
+.toggle__input:not(:disabled)~.toggle__label::after {
+    will-change: background-color;
+    transition: background-color .2s ease-out;
+}
+
+
+.page__custom-settings {
+    --toggleColor: #187AF1;
+    --toggleOutlineColorFocus: #fff;
+    --toggleSize: 2rem;
+}
+
+
+
+
+.page__section {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+}
+
+
+
+.page__toggle {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    font-size: var(--pageToggleTextFontSize);
+}
 
 .dept_single_date_discription {
     display: flex;
@@ -2106,7 +2339,7 @@ p {
     /* font-size: 20px; */
 }
 
-.aboutus-area .nav.nav-tabs li.active:before {
+.aboutus-area .nav.nav-tabs li.active_bg:before {
     content: "-";
     content: "-";
     font-size: 80px;
