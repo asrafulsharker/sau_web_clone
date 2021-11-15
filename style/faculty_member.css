@@ -919,6 +919,9 @@ p {
 
 .contentBx {
     position: relative;
+    padding: 3%;
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #BABABA;
 }
 
 .label {
@@ -982,7 +985,11 @@ p {
     transition: 0.5s;
 }
 
-
+.contentBx.active .content{
+    height: 150px;
+    padding: 10px;
+    background-color: #E5E5E5;
+}
 
 .contentB.active .conten {
     height: 150px;

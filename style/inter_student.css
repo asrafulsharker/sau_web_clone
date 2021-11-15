@@ -98,12 +98,12 @@ p {
 
 @media screen and (max-width: 600px) {
     .logo_text {
-        font-size: 10.191px;
-        line-height: 10px;
+        font-size: 16.191px;
+        line-height: 16px !important;
     }
 
     .left_nav img {
-        height: 65px !important;
+        height: 50px !important;
     }
 
     .nav_icon_main {
@@ -1023,7 +1023,7 @@ p {
     margin-top: -12%;
 }
 .home_arrow_next{
-    background-color: #049906;
+    background-color: #000;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -1071,7 +1071,32 @@ p {
         margin-top: -23%;
     }
 }
-
+@media screen and (max-width: 540px){
+    .home_arrow_next{
+        margin-top: -60%;
+        margin-left: 84%;
+    }
+    .home_arrow_prev {
+        margin-top: -60%;
+        margin-left: -4%;
+    }
+    .home_arrow_next span img{
+        height: 45px;
+    padding: 15px 20px 12px;
+    }
+    .home_arrow_prev span img{
+        height: 45px;
+        padding: 15px 20px 12px;
+    }
+    .home_arrow_prev{
+        height: 50px;
+        width: 50px;
+    }
+    .home_arrow_next{
+        height: 50px;
+        width: 50px;
+    }
+}
 
 @media screen and (max-width :800px) {
     .testimonial_main_p1 {

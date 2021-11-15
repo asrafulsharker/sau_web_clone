@@ -885,7 +885,9 @@ p {
     background: #049906;
     color: black;
 }
-
+.overview{
+    margin-top: 15px;
+}
 .overview_heading {
     font-family: Roboto;
     font-style: normal;
@@ -1741,6 +1743,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 40%;
 }
 
 .glance_left_p1 {
@@ -1782,7 +1785,7 @@ p {
     align-items: center;
     justify-content: end;
     flex-wrap: wrap;
-    width: 70% !important;
+    width: 60% !important;
 }
 
 .glance_right img {
