@@ -702,12 +702,16 @@ p {
     display: flex;
     align-items: center;
     padding: 15px 0px 8px 0px;
+    
 
+}
+.about_sau_top_link p{
+    font-size: 16px;
 }
 
 .about_sau_top_link a {
     color: #049906 !important;
-    font-size: 12px;
+    font-size: 16px;
 }
 .about_sau_top_link img{
     height: 12px;
