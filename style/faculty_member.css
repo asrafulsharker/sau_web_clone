@@ -830,7 +830,7 @@ p {
     align-items: center;
     /* border-bottom: 0.5px solid #6A6A6A; */
     padding: 20px 0px 0px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 
@@ -1068,8 +1068,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 11.2119px;
-    line-height: 13px;
+    font-size: 16px;
+    line-height: 16px;
     letter-spacing: 0.01em;
     color: #000000;
 }
