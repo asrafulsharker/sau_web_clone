@@ -9,18 +9,22 @@
     margin-top: 10px;
 }
 
-.fa-facebook-f{
+.fa-facebook-f {
     background-color: #1882FF;
 }
-.fa-twitter{
+
+.fa-twitter {
     background-color: #60B0ED;
 }
-.fa-linkedin-in{
+
+.fa-linkedin-in {
     background-color: #1B70C4;
 }
-.fa-youtube{
+
+.fa-youtube {
     background-color: #FF0000;
 }
+
 .footerBg {
     display: flex;
     justify-content: space-between;
@@ -352,6 +356,7 @@
         padding: 0px 10px;
     }
 }
+
 @media screen and (max-width :800px) {
     .footer_bottom_right {
         flex-wrap: wrap;

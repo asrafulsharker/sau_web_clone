@@ -32,9 +32,11 @@ p {
     padding-left: 5%;
     text-decoration: none !important;
 }
-.left_nav img{
+
+.left_nav img {
     height: 100px;
 }
+
 .logo_text {
     font-family: Roboto;
     font-style: normal;
@@ -232,9 +234,11 @@ p {
     color: #000;
     transition-duration: 0.05s;
 }
-.textbox_pop{
+
+.textbox_pop {
     color: #fff !important;
 }
+
 .search-btn {
     background-color: transparent;
     padding: 0px 0px 0px 0px;
@@ -428,6 +432,7 @@ p {
         font-size: 12.191px;
         line-height: 12px;
     }
+
     .mujib_logo {
         margin: 0px !important;
     }
@@ -470,19 +475,23 @@ p {
     .home_btn {
         margin-top: 52vh !important;
     }
+
     .search-bar a {
         height: 55px;
-    width: 55px;
+        width: 55px;
     }
+
     .search-bar {
         height: 55px;
     }
+
     .nav_icon_main {
         background-color: black;
         color: white;
         width: 55px;
-    height: 55px;
+        height: 55px;
     }
+
     .nav_pop_icon a img {
         width: 55px;
         height: 55px;
@@ -575,6 +584,7 @@ p {
     .nav_bottom_btn {
         margin-top: 30% !important;
     }
+
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
     }
@@ -648,27 +658,33 @@ p {
 
 @media screen and (max-width :420px) {
     .left_nav img {
-        height: 40px!important;
+        height: 40px !important;
     }
+
     .logo_text {
         font-size: 10.191px !important;
         line-height: 10px !important;
     }
+
     .nav_main_options {
         margin: 20% 0% 0% 0% !important;
     }
+
     .nav_main_options a {
         font-size: 15px !important;
         line-height: 15px !important;
-    margin-top: 20px !important;
+        margin-top: 20px !important;
     }
+
     .nav_2ndlebel_option {
         margin: 12% 0% 0% 0%;
     }
+
     .nav_2ndlebel_option .nav_2ndlebel_option_add a {
         font-size: 13px;
         line-height: 20px;
     }
+
     .nav_bottom_btn a {
         font-size: 10px;
         padding: 10px 30px;
@@ -721,10 +737,12 @@ p {
     padding: 30px 0px 15px !important;
     font-size: 16px !important;
 }
-.contact_cover_top_link img{
+
+.contact_cover_top_link img {
     height: 12px;
     margin-bottom: 4px;
 }
+
 .contact_img::after {
     content: "";
     background: url(../image/academic_programme_cover.png);
@@ -779,19 +797,23 @@ p {
 
 /* contact cover start responsive css  */
 @media screen and (max-width :800px) {
-    .contact_cover{
+    .contact_cover {
         margin-top: 8vh;
     }
-    .postgradute_bottom{
+
+    .postgradute_bottom {
         flex-wrap: wrap;
     }
-    .postgradute_left{
+
+    .postgradute_left {
         width: 100% !important;
     }
-    .postgradute_right{
+
+    .postgradute_right {
         width: 100% !important;
     }
 }
+
 @media screen and (max-width :520px) {
     .contact_img {
         font-size: 18px;
@@ -901,7 +923,7 @@ p {
         /* border: none !important; */
         box-sizing: border-box !important;
         padding: 0% !important;
-        
+
     }
 
     .postgradute {
@@ -1019,7 +1041,7 @@ p {
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
-    line-height:36px;
+    line-height: 36px;
     letter-spacing: 0.06em;
     color: #54E346;
 }
@@ -1052,12 +1074,14 @@ p {
     margin-bottom: 2px !important;
     font-size: 16px;
 }
+
 .postgradute_item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
 }
+
 .postgradute_right p {
     font-family: Roboto;
     font-style: normal;
@@ -1213,6 +1237,3 @@ p {
 }
 
 /* calander css end  */
-
-
-

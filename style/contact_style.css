@@ -697,15 +697,17 @@ p {
     padding: 0 !important;
 }
 
-.contact_home_top_link{
+.contact_home_top_link {
     display: flex;
     padding: 0px 0px 10px 0px;
     font-size: 12px !important;
 }
-.contact_home_top_link img{
+
+.contact_home_top_link img {
     height: 12px;
     margin-bottom: 4px;
 }
+
 .contact_img {
     height: 20vh;
     position: relative;
@@ -740,14 +742,17 @@ p {
     background-size: cover;
 
 }
+
 .contact_cover_top_link {
     display: flex;
     align-items: center;
     padding: 20px 0px 15px 0px !important;
 }
-.contact_cover_top{
+
+.contact_cover_top {
     margin-bottom: 30px;
 }
+
 .contact_img img {
     height: 10px;
     margin-top: 15px;
@@ -1069,10 +1074,11 @@ p {
 
 /* feedback responsive css start */
 @media screen and (max-width :1100px) {
-    .feedback_input_single_item{
+    .feedback_input_single_item {
         width: 100%;
     }
 }
+
 @media screen and (max-width :800px) {
     .contact_cover {
         margin-top: 10vh;
@@ -1214,6 +1220,3 @@ p {
 /* feedback responsive css end  */
 
 /* feedback css end  */
-
-
-

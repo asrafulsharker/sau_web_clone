@@ -695,9 +695,11 @@ p {
     background-color: #000000;
     padding: 4%;
 }
-.dept_home_left_item_down{
+
+.dept_home_left_item_down {
     margin-top: 20px;
 }
+
 .dept_home_left_item_top p {
     font-family: Roboto;
     font-style: normal;
@@ -742,6 +744,7 @@ p {
     background-color: #007bff;
     color: #ffff;
 }
+
 .mfp-close {
     color: #ffff;
     font-size: 50px;
@@ -781,6 +784,7 @@ p {
 .sau_library_btn:hover {
     color: #ffff;
 }
+
 .sau_dialog {
     display: flex;
     justify-content: center;
@@ -807,6 +811,7 @@ p {
     color: #ffff;
     background-color: #049906;
 }
+
 @media screen and (max-width :520px) {
     .dept_home_left_item {
         display: none !important;
@@ -817,6 +822,7 @@ p {
         z-index: 1000 !important;
     }
 }
+
 /* faculty membarv css start  */
 
 
@@ -907,10 +913,11 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-    .faculty_membar{
+    .faculty_membar {
         margin-top: 8vh;
     }
-    .faculty_agriculture_box{
+
+    .faculty_agriculture_box {
         display: flex;
     }
 }
@@ -986,7 +993,7 @@ p {
     transition: 0.5s;
 }
 
-.contentBx.active .content{
+.contentBx.active .content {
     height: 150px;
     padding: 10px;
     background-color: #E5E5E5;

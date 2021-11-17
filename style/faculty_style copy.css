@@ -691,7 +691,7 @@ p {
 
 
 /* faculty css start  */
-.faculty_cover p{
+.faculty_cover p {
     padding: 0% 20%;
 }
 
@@ -885,9 +885,11 @@ p {
     background: #049906;
     color: black;
 }
-.overview{
+
+.overview {
     margin-top: 15px;
 }
+
 .overview_heading {
     font-family: Roboto;
     font-style: normal;
@@ -899,14 +901,15 @@ p {
     color: #000000;
     text-align: center;
 }
-.overview_text{
+
+.overview_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.01em;
-    
+
     color: #000000;
 }
 
@@ -989,6 +992,7 @@ p {
     display: flex;
     align-items: center;
 }
+
 .contentBx {
     position: relative;
     padding: 3%;
@@ -1049,9 +1053,11 @@ p {
     /* color: red; */
     font-size: 25px;
 }
-.dept_home_left_item_down{
+
+.dept_home_left_item_down {
     margin-top: 20px;
 }
+
 .conten {
     position: relative;
     background-color: #ffff;
@@ -1071,6 +1077,7 @@ p {
     border: none !important;
     width: 100%;
 }
+
 .toggle {
     --uiToggleSize: var(--toggleSize, 1.25rem);
     --uiToggleBorderWidth: var(--toggleBorderWidth, 2px);
@@ -1251,7 +1258,8 @@ p {
 .dept_calander_front_card_news {
     background-color: #153E90 !important;
 }
-.dept_notice{
+
+.dept_notice {
     margin-top: 20px;
 }
 
@@ -2068,7 +2076,8 @@ p {
     color: #000000;
     text-align: center;
 }
-.dept_home_highlights_p1_notice{
+
+.dept_home_highlights_p1_notice {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -2079,6 +2088,7 @@ p {
     color: #000000;
     text-align: center;
 }
+
 .highlights_components p {
     font-family: Roboto;
     font-style: normal;
@@ -2514,4 +2524,3 @@ p {
 }
 
 /* services css end  */
-

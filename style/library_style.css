@@ -1082,7 +1082,8 @@ p {
     /* justify-content: space-between; */
     margin: 20px 0px;
 }
-.library_person_heading{
+
+.library_person_heading {
     text-align: center;
     font-family: Roboto;
     font-style: normal;
@@ -1093,6 +1094,7 @@ p {
     letter-spacing: 0.01em;
     color: #000000;
 }
+
 .library_person_single {
     width: 24.5%;
     display: flex;
@@ -1528,5 +1530,3 @@ p {
         margin: 10px;
     }
 }
-
-

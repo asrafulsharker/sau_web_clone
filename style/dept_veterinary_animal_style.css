@@ -695,14 +695,15 @@ p {
 
 
 
-.faculty_home_top_link{
-    display:flex;
+.faculty_home_top_link {
+    display: flex;
     align-items: center;
     padding: 5px 0px;
 }
-.faculty_home_top_link a img{
+
+.faculty_home_top_link a img {
     height: 15px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
 .faculty_home_right_top_cover {
@@ -722,9 +723,11 @@ p {
 
     color: #FFFFFF;
 }
-.faculty_home_right_top_cover p{
+
+.faculty_home_right_top_cover p {
     width: 80%;
 }
+
 .faculty_home_right_top_cover img {
     display: none;
 }
@@ -1254,9 +1257,10 @@ p {
     margin-top: 20px;
 }
 
-.highlights_components::before{
+.highlights_components::before {
     background-color: red;
 }
+
 .dept_home_highlights_p1 {
     font-family: Roboto;
     font-style: normal;
@@ -1283,7 +1287,7 @@ p {
 }
 
 .highlights_components:hover {
-    background-color:#007bff;
+    background-color: #007bff;
     color: #ffff;
 }
 
@@ -1301,21 +1305,24 @@ p {
 }
 
 
-.highlights_single{
+.highlights_single {
     display: flex;
     align-items: center;
 
     padding: 10% 0%;
 }
-.highlights_single img{
+
+.highlights_single img {
     height: 25px !important;
     transform: rotate(270deg);
     /* transform-origin: 20% 40%; */
 }
-.highlights_single p{
+
+.highlights_single p {
     font-size: 18px;
     margin: 0px 15px;
 }
+
 .highlights_single {
     padding: 2% 0%;
 }
@@ -1759,7 +1766,8 @@ p {
 .dept_calander_front_card_news {
     background-color: #049906 !important;
 }
-.dept_notice{
+
+.dept_notice {
     margin-top: 20px;
 }
 
@@ -2121,5 +2129,3 @@ p {
 }
 
 /* services css end  */
-
-

@@ -1072,10 +1072,12 @@ p {
     padding: 36px 0px 8px 0px;
 
 }
-.about_sau_top_link img{
+
+.about_sau_top_link img {
     height: 12px;
     margin-bottom: 4px;
 }
+
 .about_sau_top_link a {
     color: #049906 !important;
     font-size: 12px !important;
@@ -1266,5 +1268,3 @@ p {
 }
 
 /* teacher hall css end  */
-
-

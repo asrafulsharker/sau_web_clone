@@ -33,6 +33,7 @@ p {
     font-size: 18px;
     text-align: center;
 }
+
 @media screen and (max-width :550px) {
     .sau_library_btn {
         display: none;
@@ -63,6 +64,7 @@ p {
     color: #ffff;
     background-color: #049906;
 }
+
 .sau_library_btn:hover {
     color: #ffff;
 }
@@ -285,9 +287,11 @@ p {
     color: #000;
     transition-duration: 0.05s;
 }
-.textbox_pop{
+
+.textbox_pop {
     color: #fff !important;
 }
+
 .search-btn {
     background-color: transparent;
     padding: 0px 0px 0px 0px;
@@ -610,12 +614,15 @@ p {
     .nav_bottom_btn {
         margin-top: 30% !important;
     }
+
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
     }
+
     .left_nav img {
         height: 55px !important;
     }
+
     .logo_text {
         font-size: 13.191px;
         line-height: 14px;
@@ -690,27 +697,33 @@ p {
 
 @media screen and (max-width :420px) {
     .left_nav img {
-        height: 40px!important;
+        height: 40px !important;
     }
+
     .logo_text {
         font-size: 10.191px !important;
         line-height: 10px !important;
     }
+
     .nav_main_options {
         margin: 20% 0% 0% 0% !important;
     }
+
     .nav_main_options a {
         font-size: 15px !important;
         line-height: 15px !important;
-    margin-top: 20px !important;
+        margin-top: 20px !important;
     }
+
     .nav_2ndlebel_option {
         margin: 12% 0% 0% 0%;
     }
+
     .nav_2ndlebel_option .nav_2ndlebel_option_add a {
         font-size: 13px;
         line-height: 20px;
     }
+
     .nav_bottom_btn a {
         font-size: 10px;
         padding: 10px 30px;
@@ -736,17 +749,18 @@ p {
     padding: 0vw 5vw 0vw 5vw;
 }
 
-.hall_home_home_top_link{
+.hall_home_home_top_link {
     display: flex;
     margin-bottom: 15px;
     font-size: 12px !important;
     margin-top: 80px;
 }
 
-.hall_home_home_top_link img{
+.hall_home_home_top_link img {
     height: 12px;
     margin-bottom: 4px;
 }
+
 .hall_home_box {
     display: flex;
     align-items: center;
@@ -967,7 +981,7 @@ p {
     width: 33%;
 }
 
-.hall_expert_component img{
+.hall_expert_component img {
     width: 100%;
     padding: 0px 10px 0px 10px;
 }
@@ -1268,25 +1282,29 @@ p {
         flex-wrap: wrap;
         width: 100%;
     }
-    .hall_expert_component img{
+
+    .hall_expert_component img {
         height: 270px;
         width: 260px;
-         margin-top: 10px;
+        margin-top: 10px;
     }
 
-    .hall_expert{
+    .hall_expert {
         flex-wrap: wrap;
     }
-    .hall_home{
+
+    .hall_home {
         margin-top: 8vh;
     }
-    .why_hall_left{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+
+    .why_hall_left {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
     .teacher_hall_left {
         width: 100%;
         height: 100%;
@@ -1294,21 +1312,26 @@ p {
         justify-content: center;
         margin-bottom: 15px;
     }
+
     .hall_support_left {
         width: 100%;
         margin: 1%;
     }
+
     .hall_support_right {
         width: 100%;
         margin: 1%;
     }
+
     .teacher_hall_right {
         width: 100%;
     }
+
     .why_hall_right {
         width: 100%;
         margin-top: 15px;
     }
+
     .nav_main {
         height: 8vh;
     }
@@ -1654,7 +1677,7 @@ p {
         border-top: 0.5px solid #968787;
         margin-top: 8px;
         margin-top: 9px;
-padding-top: 8px;
+        padding-top: 8px;
     }
 
     /* .footer_bottom { */
@@ -1714,16 +1737,20 @@ padding-top: 8px;
     box-sizing: border-box;
     margin: 20px 0px;
 }
-.campus_life1{
+
+.campus_life1 {
     background-color: #153E90;
     color: #fff !important;
 }
-.campus_life_details_p1_1{
+
+.campus_life_details_p1_1 {
     color: #fff !important;
 }
-.campus_life_details_p2_1{
+
+.campus_life_details_p2_1 {
     color: #fff !important;
 }
+
 .campus_life_img {
     display: flex;
     align-items: center;
@@ -1947,7 +1974,8 @@ padding-top: 8px;
     justify-content: center;
     flex-direction: column;
 }
-.library_person_single img{
+
+.library_person_single img {
     width: 85%;
 }
 
@@ -1972,14 +2000,15 @@ padding-top: 8px;
 
 
 }
-.view_galary_link_div{
+
+.view_galary_link_div {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-.view_galary_link{
+.view_galary_link {
     background-color: #000;
     padding: 10px 30px;
     color: #fff;
@@ -2096,29 +2125,34 @@ padding-top: 8px;
         width: 100%;
         padding: 5px;
     }
+
     .sau_library_btn {
         margin-left: 70%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
-    .hall_home_right_top_cover{
+
+    .hall_home_right_top_cover {
         font-size: 26px !important;
     }
-.hall_home_right_top_cover p{
-    font-size: 32px !important;
-}
-.hall_home_left{
-    display: none;
-}
+
+    .hall_home_right_top_cover p {
+        font-size: 32px !important;
+    }
+
+    .hall_home_left {
+        display: none;
+    }
 
 }
 
 @media screen and (max-width :420px) {
     .sau_library_btn {
         margin-left: 60%;
-    margin-bottom: 4%;
+        margin-bottom: 4%;
     }
 }
-@media screen and (max-width: 320px){
+
+@media screen and (max-width: 320px) {
     .sau_library_btn {
         margin-left: 50%;
         margin-bottom: 4%;

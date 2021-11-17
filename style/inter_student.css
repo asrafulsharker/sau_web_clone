@@ -32,9 +32,11 @@ p {
     padding-left: 5%;
     text-decoration: none !important;
 }
-.left_nav img{
+
+.left_nav img {
     height: 100px;
 }
+
 .logo_text {
     font-family: Roboto;
     font-style: normal;
@@ -232,9 +234,11 @@ p {
     color: #000;
     transition-duration: 0.05s;
 }
-.textbox_pop{
+
+.textbox_pop {
     color: #fff !important;
 }
+
 .search-btn {
     background-color: transparent;
     padding: 0px 0px 0px 0px;
@@ -477,9 +481,11 @@ p {
     .nav_pop_icon {
         padding: 8px 0px;
     }
+
     .nav_main {
         height: 8vh;
     }
+
     .inter_student_main {
         margin-top: 8vh !important;
     }
@@ -563,6 +569,7 @@ p {
     .nav_bottom_btn {
         margin-top: 30% !important;
     }
+
     .nav_2ndlebel_option {
         margin: 10% 0% 0% 0% !important;
     }
@@ -636,27 +643,33 @@ p {
 
 @media screen and (max-width :420px) {
     .left_nav img {
-        height: 40px!important;
+        height: 40px !important;
     }
+
     .logo_text {
         font-size: 10.191px !important;
         line-height: 10px !important;
     }
+
     .nav_main_options {
         margin: 20% 0% 0% 0% !important;
     }
+
     .nav_main_options a {
         font-size: 15px !important;
         line-height: 15px !important;
-    margin-top: 20px !important;
+        margin-top: 20px !important;
     }
+
     .nav_2ndlebel_option {
         margin: 12% 0% 0% 0%;
     }
+
     .nav_2ndlebel_option .nav_2ndlebel_option_add a {
         font-size: 13px;
         line-height: 20px;
     }
+
     .nav_bottom_btn a {
         font-size: 10px;
         padding: 10px 30px;
@@ -719,7 +732,7 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height:32px;
+    line-height: 32px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     margin-bottom: 25px !important;
@@ -808,7 +821,7 @@ p {
     justify-content: center;
 }
 
-.inter_card_main{
+.inter_card_main {
     display: flex;
     justify-content: space-between;
 }
@@ -853,9 +866,11 @@ p {
     align-items: center;
     margin-top: 8px;
 }
-.inter_card_bottom_link img{
+
+.inter_card_bottom_link img {
     height: 10px;
 }
+
 .inter_card_bottom_link p {
     font-family: Roboto;
     font-style: normal;
@@ -977,7 +992,7 @@ p {
 }
 
 
-.testimonial_main_p1  {
+.testimonial_main_p1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -1014,7 +1029,8 @@ p {
     width: 90%;
     padding-bottom: 50px;
 }
-.home_arrow_prev{
+
+.home_arrow_prev {
     background-color: #E0E0E0;
     width: 60px;
     height: 60px;
@@ -1022,7 +1038,8 @@ p {
     position: absolute;
     margin-top: -12%;
 }
-.home_arrow_next{
+
+.home_arrow_next {
     background-color: #000;
     width: 60px;
     height: 60px;
@@ -1031,68 +1048,82 @@ p {
     margin-top: -12%;
     margin-left: 87%;
 }
-.home_arrow_next span img{
+
+.home_arrow_next span img {
     height: 42px;
     padding: 12px 15px;
     height: 55px;
     padding: 16px 22px 10px;
 }
-.home_arrow_prev span img{
+
+.home_arrow_prev span img {
     height: 42px;
     padding: 12px 10px;
     padding: 12px 15px;
     height: 55px;
     padding: 16px 15px 10px;
 }
+
 .testimonial_slider_main_p2 {
     font-size: 25px !important;
 }
-.testimonial_slider{
+
+.testimonial_slider {
     position: relative;
 }
+
 .testimonial_slider_main_p3 {
     font-size: 25px !important;
 }
 
 @media screen and (max-width :1280px) {
-.home_arrow_next{
-    margin-top: -19%;
+    .home_arrow_next {
+        margin-top: -19%;
+    }
+
+    .home_arrow_prev {
+        margin-top: -19%;
+        margin-left: -2%;
+    }
 }
-.home_arrow_prev {
-    margin-top: -19%;
-    margin-left: -2%;
-}
-}
-@media screen and (max-width: 1040px){
-    .home_arrow_next{
+
+@media screen and (max-width: 1040px) {
+    .home_arrow_next {
         margin-top: -23%;
     }
+
     .home_arrow_prev {
         margin-top: -23%;
     }
 }
-@media screen and (max-width: 540px){
-    .home_arrow_next{
+
+@media screen and (max-width: 540px) {
+    .home_arrow_next {
         margin-top: -60%;
         margin-left: 84%;
     }
+
     .home_arrow_prev {
         margin-top: -60%;
         margin-left: -4%;
     }
-    .home_arrow_next span img{
-        height: 45px;
-    padding: 15px 20px 12px;
-    }
-    .home_arrow_prev span img{
+
+    .home_arrow_next span img {
         height: 45px;
         padding: 15px 20px 12px;
     }
-    .home_arrow_prev{
+
+    .home_arrow_prev span img {
+        height: 45px;
+        padding: 15px 20px 12px;
+    }
+
+    .home_arrow_prev {
         height: 50px;
         width: 50px;
     }
-    .home_arrow_next{
+
+    .home_arrow_next {
         height: 50px;
         width: 50px;
     }
@@ -1154,9 +1185,3 @@ p {
 }
 
 /* testimonial css end  */
-
-
-
-
-
-
