@@ -1505,7 +1505,99 @@ p {
 }
 
 /* faculty home responsive end  */
+/* achivement css start  */
 
+.achivement {
+    margin: 90px 0px 10px 0px;
+}
+
+.achivement_bottom_btn {
+    background-color: #049906 !important;
+}
+
+.achivement_top {
+    margin-bottom: 35px;
+    margin-left: 0 !important;
+}
+
+.achivement_slider {
+    position: relative;
+}
+
+.achievement_arrow_prev {
+    width: 70.26px;
+    height: 70.26px;
+    background: #ECECEC;
+    padding: 22px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -134px;
+    margin-left: -20px;
+    cursor: pointer;
+    display: none;
+}
+
+.achievement_arrow_next {
+    width: 70.26px;
+    height: 70.26px;
+    background: #284E8D;
+    padding: 22px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -134px;
+    margin-left: 76%;
+    margin-left: 1060px;
+    cursor: pointer;
+    display: none;
+}
+
+.achivement_text_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.admission_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card_btn {
+    background: #049906;
+    font-weight: 300;
+    font-size: 13.1001px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+.card_btn_achivement {
+    background: #284E8D ;
+}
+/* .card {
+    width: 32% !important;
+    border: none;
+} */
+
+.card-text {
+    padding-bottom: 20px !important;
+}
+
+.admission_top_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.achivement {
+    padding: 50px 0px;
+}
 /* dropdown css start  */
 .select_t {
     font-family: Roboto;
