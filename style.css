@@ -1709,7 +1709,6 @@ button:active {
     outline: none !important;
     border: none !important;
     font-weight: bold;
-    /* border-bottom: 6px solid #1882FF !important; */
 }
 
 .admission_bottom {
@@ -2074,11 +2073,8 @@ button:active {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: 0.01em;
-
     color: #1882FF;
 }
 
@@ -2142,11 +2138,6 @@ button:active {
         font-size: 12px;
     }
 
-    /* .admission_bottom_1 a {
-        padding: 5px 20px;
-        margin-top: 10px;
-        font-size: 10px;
-    } */
     .card {
         margin-bottom: 20px;
     }
@@ -2160,7 +2151,6 @@ button:active {
 
     .admission_bottom_1 {
         width: 100% !important;
-        /* height: 150px; */
         margin-top: 10px !important;
     }
 
@@ -2267,7 +2257,6 @@ button:active {
     }
 
     .admission_btn:focus {
-        /* border-bottom: 2px solid red; */
     }
 }
 
@@ -2391,7 +2380,6 @@ button:active {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        /* margin-left: 111px; */
     }
 
     .vice_right p {
@@ -2551,7 +2539,6 @@ button:active {
     line-height: 32px;
     letter-spacing: 0.01em;
     color: #ffff;
-    /* text-align: center; */
 }
 
 .daculty_item {
@@ -2864,7 +2851,6 @@ button:active {
     border-bottom: 1px solid #153E90;
     border-right: 1px solid #153E90;
     border-left: 1px solid #153E90;
-    /* border-radius: 5px; */
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     padding-top: 20px;
@@ -2907,7 +2893,7 @@ button:active {
 }
 
 .notice_line {
-    /* display: none; */
+
 }
 
 .row {
@@ -2915,7 +2901,7 @@ button:active {
 }
 
 .latest_news_line {
-    /* display: none; */
+
 }
 
 .notice_right_p1 {
@@ -3034,7 +3020,6 @@ button:active {
     color: #FFECEC;
     background-color: #284E8D !important;
     padding: 15px 40px;
-    /* margin-left: -15px; */
     text-decoration: none !important;
 }
 
@@ -3051,7 +3036,6 @@ button:active {
     letter-spacing: 0.01em;
     color: #FFECEC;
     padding: 15px 40px;
-    /* margin-left: -15px; */
     background-color: #049906;
     text-decoration: none !important;
 }
@@ -3433,7 +3417,6 @@ button:active {
 
 .event_btn:focus {
     font-weight: bold;
-    /* border-bottom: 3px solid #1882FF; */
 }
 
 .event_arrow_prev {
@@ -3596,7 +3579,6 @@ button:active {
 }
 
 .achivement_text img {
-    /* margin-left: -65px; */
     display: none;
 }
 
@@ -4353,7 +4335,6 @@ button:active {
     font-size: 14px;
     line-height: 19px;
     margin-bottom: 5px;
-    /* identical to box height */
     letter-spacing: 0.01em;
 
     color: #E2E2E2;
@@ -4362,7 +4343,6 @@ button:active {
 }
 
 .footer_2nd_col {
-    /* padding: 0% 5%; */
 }
 
 .footer_2nd_col .top_footer_txt {
@@ -4384,7 +4364,6 @@ button:active {
 
 .footer_txt {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -4393,7 +4372,6 @@ button:active {
 }
 
 .footer_txt img {
-    /* height: 10px; */
     display: none;
 
 }
@@ -4416,7 +4394,6 @@ button:active {
 }
 
 .footer_3rd_col {
-    /* padding: 0% 5%; */
 }
 
 .footer_3rd_col a {
@@ -4427,7 +4404,6 @@ button:active {
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    /* letter-spacing: 0.01em; */
     color: #E2E2E2;
     border-bottom: 0.737342px solid #282828;
     padding: 5px 0px;
@@ -4435,7 +4411,7 @@ button:active {
 }
 
 .footer_4th_col {
-    /* padding: 0% 5%; */
+
 }
 
 .footer_4th_col a {
@@ -4447,9 +4423,7 @@ button:active {
     font-size: 14px;
     line-height: 19px;
     margin-bottom: 5px;
-    /* identical to box height */
     letter-spacing: 0.01em;
-
     color: #E2E2E2;
     border-bottom: 0.737342px solid #282828;
     padding: 5px 0px;
@@ -4476,7 +4450,6 @@ button:active {
 /* footer responsive css start  */
 @media screen and (max-width :800px) {
     .footer_2nd_col {
-        /* padding: 0% 5%; */
         width: 100%;
     }
 
@@ -4583,7 +4556,6 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: end;
-    /* flex: 7; */
     width: 70%;
     font-family: Roboto;
     font-style: normal;
@@ -4671,7 +4643,7 @@ button:active {
         padding-top: 8px;
     }
 
-    /* .footer_bottom { */
+    /* footer_bottom  */
     .footer_bottom {
         background: #1F212F;
         color: #FFFFFF;
@@ -4679,7 +4651,6 @@ button:active {
         padding: 20px 50px;
     }
 
-    /* } */
 }
 
 @media screen and (max-width :360px) {

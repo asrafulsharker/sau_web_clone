@@ -16,11 +16,9 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* position: fixed;  */
     top: 0;
     width: 100%;
     z-index: 10;
-    /* border: 1px solid #757575; */
     padding: 10px 0px;
     position: absolute;
 }
@@ -63,7 +61,6 @@ p {
     width: 70px;
     height: 70px;
     border: 1px solid #54E346;
-    /* padding: 10; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,7 +247,6 @@ p {
     align-items: center;
     float: right;
     text-decoration: none;
-    /* border-left: 5px black solid; */
     height: 100%;
     transition-duration: 0.2s;
     background-color: black;
@@ -272,12 +268,10 @@ p {
 }
 
 .search-bar:hover>.search-btn {
-    /* border-left: 5px black solid; */
     transition-duration: 0.8s;
 }
 
 .search-btn:hover {
-    /* background-color: black; */
     transition-duration: 0.8s;
 }
 
@@ -287,7 +281,6 @@ p {
 }
 
 .search_img {
-    /* background-color: red; */
 }
 
 .nav_pop_icon a img {
@@ -389,7 +382,6 @@ p {
 
 .nav-toggler {
     cursor: pointer;
-    /* z-index: 60000; */
 }
 
 @media screen and (max-width :1024px) {
@@ -693,9 +685,7 @@ p {
 
 /* nav popbar responsive css end  */
 
-/* .nav_pop_icon_coros{
-    z-index: -10; 
-} */
+
 
 /* nav css pobar end  */
 
@@ -972,7 +962,6 @@ p {
 /* undergradute css start  */
 
 .undergradute {
-    /* margin: 30px 0px; */
 }
 
 .undergradute_cover {
@@ -1026,7 +1015,7 @@ p {
 
 
 .postgradute {
-    /* margin: 30px 0px; */
+    
 }
 
 .postgradute_cover {
@@ -1079,7 +1068,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .postgradute_right p {
@@ -1095,7 +1083,6 @@ p {
 }
 
 .postgradute_left ul li {
-    /* font-size: 20.0806px; */
     font-size: 16px;
 }
 
