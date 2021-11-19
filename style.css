@@ -3232,7 +3232,9 @@ button:active {
     .drop-down .options ul {
         margin-top: 5% !important;
     }
-
+    .calander_front_card  p{
+        margin-top: 2px;
+    }
 }
 
 @media screen and (max-width :360px) {
