@@ -3207,6 +3207,9 @@ button:active {
 
         padding: 10px 0px;
     }
+    .calander_front_card p{
+        margin-top: 0px !important;
+    }
 
     .notice_left {
         padding: 5% 0%;
