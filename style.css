@@ -4053,9 +4053,9 @@ button:active {
 }
 
 .affilition_mid {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .affilition_mid_single {}
