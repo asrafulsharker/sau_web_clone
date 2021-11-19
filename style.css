@@ -2984,7 +2984,7 @@ button:active {
     position: absolute;
     z-index: 10;
     margin-top: -98px;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 .notice_main {
@@ -2994,7 +2994,7 @@ button:active {
 }
 
 .notice_details {
-    padding-left: 45px;
+    padding-left: 25px;
 }
 
 .notice_details_notice_P {
