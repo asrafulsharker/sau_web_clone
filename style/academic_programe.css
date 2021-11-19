@@ -153,6 +153,9 @@ p {
         font-size: 18px !important;
     }
 
+    .undergradute_cover{
+        padding: 10px 0px !important;
+    }
     .undergradute_cover_top img {
         margin-top: -2px !important;
         height: 3px !important;
@@ -180,12 +183,12 @@ p {
     .undergradute_cover {
         /* border: none !important; */
         box-sizing: border-box !important;
-        padding: 0% !important;
+        /* padding: 0% !important; */
         /* margin-bottom: 30px; */
     }
 
     .undergradute_cover_top {
-        margin-bottom: 20px !important;
+        margin-bottom: 0px !important;
     }
 
     .postgradute_cover_top img {
@@ -214,7 +217,7 @@ p {
         font-size: 14px !important;
     }
 
-    .postgradute_item ul {
+    .postgradute_item a {
         font-size: 16px !important;
     }
 
@@ -223,7 +226,7 @@ p {
     }
 
     .postgradute_item ul {
-        margin-left: -15px !important;
+        /* margin-left: -15px !important; */
     }
 
     .postgradute_right p {
@@ -247,7 +250,7 @@ p {
     .postgradute_cover {
         /* border: none !important; */
         box-sizing: border-box !important;
-        padding: 0% !important;
+        padding: 10px 0px !important;
 
     }
 
@@ -340,10 +343,13 @@ p {
 
 }
 
-.undergradute_bottom ul li {
+.undergradute_bottom a {
     font-size: 18px;
+    color: #000;
 }
-
+.undergradute_bottom a :hover{
+    color: #000;
+}
 /* undergradute css end  */
 
 /* postgradute css start  */
@@ -394,9 +400,13 @@ p {
     margin-bottom: 10px !important;
 }
 
-.postgradute_item ul {
+.postgradute_item a {
     margin-bottom: 2px !important;
     font-size: 16px;
+    color: #000;
+}
+.postgradute_item:hover{
+    color: #000;
 }
 
 .postgradute_item {
