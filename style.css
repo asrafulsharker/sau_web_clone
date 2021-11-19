@@ -1669,7 +1669,9 @@ p {
     padding: 10px 25px;
     margin-top: 20px;
 }
-
+.card_btn:hover{
+    color: #fff;
+}
 .card_btn_achivement {
     background: #284E8D ;
 }
@@ -1723,7 +1725,7 @@ button:active {
 }
 
 .card_covid19 {
-    padding: 0% 10px;
+    /* padding: 0% 10px; */
 }
 
 .admission_bottom_1 {
@@ -2240,15 +2242,15 @@ button:active {
     }
 
     .convocation {
-        margin: 10px 0px 10px 0px;
+        margin: 30px 0px 10px 0px;
     }
 
     .admission {
-        margin: 10px 0px 10px 0px;
+        margin: 30px 0px 10px 0px;
     }
 
     .covid19 {
-        margin: 10px 0px 10px 0px;
+        margin: 30px 0px 10px 0px;
     }
 
     .admission_btn {
