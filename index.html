@@ -27,10 +27,10 @@
 
 
 
-<body>
+<body >
     <!-- nav section start  -->
     <section class="nav" id="nav">
-        <div class="nav_main">
+        <div class="nav_main" >
             <div class="left_nav">
                 <a class="left_nav" href="./index.html">
                     <img src="./image/sau_logo.png" alt="logo" />
@@ -52,10 +52,10 @@
                     <input type="text" placeholder="Search.." id="searchInput" onkeyup="filterFunction()">
                     <a href="">Search</a>
                 </div>
-                <div class="nav_icon_main">
+                <div  class="nav_icon_main">
                     <p class="nav_icon nav_icon_2">En</p>
                 </div>
-                <div class="nav_icon_main nav-toggler nav_toggle" id="nav_icon_main">
+                <div  class="nav_icon_main nav-toggler nav_toggle" id="nav_icon_main">
                     <img class="nav_icon nav_icon_3" src="./image/bar_icon.png" alt="bar">
                 </div>
             </div>
@@ -126,7 +126,7 @@
 
 
     <!-- home start  -->
-    <section class="home">
+    <section class="home" onclick="close1()">
         <div class="home_slider" id="home">
             <div class="main_home">
                 <div class="mid_home">
@@ -1252,7 +1252,7 @@
             });
         })
 
-// faculty slider js start 
+        // faculty slider js start 
         $('.faculty_slider').slick({
             dots: false,
             infinite: false,
@@ -1408,27 +1408,38 @@
                 $(".drop-down .options ul").hide();
         });
 
+
+        
+      
         function search_btn() {
             document.getElementById("search_btn_drop").classList.toggle("add");
+
         }
+        function close1()  {
+          
+            document.getElementById("search_btn_drop").classList.remove("add");
 
-        function searchFunction() {
-            var input, filter, ul, li, a, i;
-            input = document.getElementById("searchInput");
-            filter = input.value.toUpperCase();
-            div = document.getElementById("search_btn_drop");
-            a = div.getElementsByTagName("a");
-            for (i = 0; i < a.length; i++) {
-                txtValue = a[i].textContent || a[i].innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    a[i].style.display = "";
-                } else {
-                    a[i].style.display = "none";
-                }
-            }
         }
+        // function searchFunction() {
+        //     var input, filter, ul, li, a, i;
+        //     input = document.getElementById("searchInput");
+        //     filter = input.value.toUpperCase();
+        //     div = document.getElementById("search_btn_drop");
+        //     a = div.getElementsByTagName("a");
+        //     for (i = 0; i < a.length; i++) {
+        //         txtValue = a[i].textContent || a[i].innerText;
+        //         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        //             a[i].style.display = "";
+        //         } else {
+        //             a[i].style.display = "none";
+        //         }
+        //     }
+        // }
 
-
+        // function close() {
+        //     var element = document.getElementById("search_btn_drop");
+        //     element.classList.toggle("add");
+        // }
         $('.dropdown-toggle').dropdown()
     </script>
 </body>
