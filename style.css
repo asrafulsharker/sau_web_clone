@@ -2892,7 +2892,7 @@ button:active {
 .notice {
     margin: 50px 0px;
     background: #f9f9f9;
-    padding: 90px 0px;
+    padding: 60px 0px;
 }
 
 .notice_left_p1 {
@@ -3059,7 +3059,7 @@ button:active {
 }
 
 .notice_right_bottom {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .read_me {
