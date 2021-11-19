@@ -3033,7 +3033,7 @@ button:active {
     letter-spacing: 0.01em;
     color: #FFECEC;
     background-color: #284E8D !important;
-    padding: 15px 40px;
+    padding: 10px 20px;
     text-decoration: none !important;
 }
 
@@ -3049,7 +3049,7 @@ button:active {
     line-height: 18px;
     letter-spacing: 0.01em;
     color: #FFECEC;
-    padding: 15px 40px;
+    padding: 10px 20px;
     background-color: #049906;
     text-decoration: none !important;
 }
@@ -3144,10 +3144,10 @@ button:active {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15.2717px;
+    font-size: 16px;
     line-height: 18px;
     letter-spacing: 0.01em;
-    color: #FFECEC;
+    color: #fff;
 }
 
 
