@@ -2656,7 +2656,9 @@ button:active {
     padding: 7px 25px;
     margin-top: 60px;
 }
-
+.faculty_details_1:hover{
+    color: #fff;
+}
 
 /* faculty responsive css  */
 
