@@ -2234,7 +2234,7 @@ button:active {
     }
 
     .event_filter {
-        margin: 5px 0px 5px 0px !important;
+        margin: 10px 0px 5px 0px !important;
     }
 
     .faculty_right {
@@ -2242,17 +2242,25 @@ button:active {
     }
 
     .convocation {
-        margin: 30px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     .admission {
-        margin: 30px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
     }
 
     .covid19 {
-        margin: 30px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
     }
-
+    .admission_filter{
+        margin: 10px 0px 10px 0px !important;
+    }
+    .workshop{
+        margin: 10px 0px 10px 0px !important;
+    }
+    .comference{
+        margin: 10px 0px 10px 0px !important;
+    }
     .admission_btn {
         font-size: 14px;
         line-height: 20px;
