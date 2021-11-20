@@ -957,6 +957,8 @@ p {
 .highlights_single p {
     font-size: 18px;
     margin: 0px 15px;
+    color: #000;
+    text-decoration: none;
 }
 
 .highlights_single {
@@ -995,7 +997,9 @@ p {
     .dept_home_highlights_p1 {
         font-size: 26px;
     }
-
+    .highlights_single p {
+        font-size: 14px;
+    }
 }
 
 
