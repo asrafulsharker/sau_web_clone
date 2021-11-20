@@ -2842,6 +2842,7 @@ button:active {
     display: block;
     padding: 5px;
     margin-left: 8px;
+    width: 80%;
 }
 
 .drop-down .option {
