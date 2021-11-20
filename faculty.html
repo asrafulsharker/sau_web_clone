@@ -22,53 +22,58 @@
     <link rel="icon" href="./image/sau_logo.png" type="image/gif" sizes="16x16">
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="./style/faculty_style.css">
+    <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/footer.css">
     <title>Faculty</title>
 </head>
 
 <body>
 
-    <!-- nav start  -->
+    <!-- nav section start  -->
     <section class="nav" id="nav">
-        <div class="nav_main">
+        <div class="nav_main" >
             <div class="left_nav">
                 <a class="left_nav" href="./index.html">
                     <img src="./image/sau_logo.png" alt="logo" />
-                    <p class="logo_text">SYLHET <br />AGRICULTURE<br />UNIVERSITY</p>
+                    <div>
+                        <p class="logo_text">SYLHET <br />AGRICULTURAL<br />UNIVERSITY <br></p>
+                        <p class="logo_text_bd logo_text">BANGLADESH</p>
+                    </div>
                 </a>
+                <img class="mujiblogo" src="./image/mujib100_logo.png" alt="">
+                <img class="mujiblogo logo3" src="./image/logo3.png" alt="">
             </div>
             <div class="right_nav">
                 <div class="search-bar addbar">
-                    <input type="text" class="textbox" placeholder="type here..." />
-                    <a class="search-btn " href="#">
+                    <div onclick="search_btn()" class="dropbtn nav_icon_main" href="#">
                         <img class="search_img" src="./image/search_icon.png" alt="">
-                    </a>
+                    </div>
                 </div>
-                <div class="nav_icon_main">
+                <div id="search_btn_drop" class="dropdown-content">
+                    <input type="text" placeholder="Search.." id="searchInput" onkeyup="filterFunction()">
+                    <a href="">Search</a>
+                </div>
+                <div  class="nav_icon_main">
                     <p class="nav_icon nav_icon_2">En</p>
                 </div>
-                <div class="nav_icon_main nav-toggler " id="nav_icon_main">
+                <div  class="nav_icon_main nav-toggler nav_toggle" id="nav_icon_main">
                     <img class="nav_icon nav_icon_3" src="./image/bar_icon.png" alt="bar">
                 </div>
             </div>
+
+        </div>
         </div>
     </section>
+
+    <!-- nav section end  -->
 
     <!-- nav bar start  -->
     <section class="nav_pop_bar">
         <div class="row">
             <div class="col-md-4">
-
             </div>
             <div class="nav_pop_bar_main col-md-8">
-
                 <div class="nav_pop_icon">
-                    <div class="search-bar ">
-                        <input type="text" class="textbox textbox_pop" placeholder="type here..." />
-                        <a class="search-btn " href="#">
-                            <img class="search_img" src="./image/search_icon.png" alt="">
-                        </a>
-                    </div>
                     <a class="nav_icon_main" href="#">
                         <p class="nav_icon nav_icon_2">En</p>
                     </a>
@@ -82,26 +87,33 @@
                     <a href="./academic_programe.html">ACADEMICS</a>
                     <a href="./dept_veterinary_animal.html">FACULTIES</a>
                     <a href="./library.html">LIBRARY</a>
-                    <a href="./research_sau.html">RESEARCH</a>
                     <a href="./contact.html">CONTACT</a>
                 </div>
                 <div class="nav_2ndlebel_option">
-                    <div class="nav_2ndlebel_option_add"><a href="./international_student.html">COMMUNITY</a><img
-                            src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="./campus_offer.html">PUBLICATIONS</a><img
-                            src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="./campuslife.html">PROSPECTUS</a><img
-                            src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="./academic_programe.html">ACADEMICS</a><img
-                            src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"> <a href="#">LINKS</a><img src="./image/nav_2ndlabel_line.png">
+                    <div class="nav_label_one">
+                        <div class="nav_2ndlebel_option_add"><a href="./international_student.html">COMMUNITY</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./campus_offer.html">PUBLICATIONS</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./campuslife.html">PROSPECTUS</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./academic_programe.html">ACADEMICS</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./research_sau.html">RESEARCH</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
                     </div>
-                    <div class="nav_2ndlebel_option_add"><a href="">HOMES AND DOWNLOADS</a><img
-                            src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="./research_sau.html">RESEARCH</a><img
-                            src="./image/nav_2ndlabel_line.png"></div>
-                    <div class="nav_2ndlebel_option_add"><a href="#">JOBS & OPS</a><img
-                            src="./image/nav_2ndlabel_line.png"></div>
+                    <div class="nav_label_two">
+                        <div class="nav_2ndlebel_option_add"><a href="./international_student.html">LINKS</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./campus_offer.html">HOME & DOWNLOAD</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./campuslife.html">JOBS & OPS</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./academic_programe.html">ACADEMICS</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                        <div class="nav_2ndlebel_option_add"><a href="./research_sau.html">RESEARCH</a><img
+                                src="./image/nav_2ndlabel_line.png"></div>
+                    </div>
                 </div>
                 <div class="nav_bottom_btn" id="nav_bottom_btn">
                     <a href="">SIGN UP</a>
@@ -641,11 +653,11 @@
                                         information for UK-based international students</p>
                                     <div class="services_card_bottom_link">
                                         <img src="./image/services_arrow.png">
-                                        <p>Application now Open</p>
+                                        <p><a href=""> Application now Open</a></p>
                                     </div>
                                     <div class="services_card_bottom_link">
                                         <img src="./image/services_arrow.png">
-                                        <p>Application now Open</p>
+                                        <p><a href=""> Application now Open</a></p>
                                     </div>
 
                                 </div>
@@ -661,11 +673,11 @@
                                         information for UK-based international students</p>
                                     <div class="services_card_bottom_link">
                                         <img src="./image/services_arrow.png">
-                                        <p>Application now Open</p>
+                                        <p><a href=""> Application now Open</a></p>
                                     </div>
                                     <div class="services_card_bottom_link">
                                         <img src="./image/services_arrow.png">
-                                        <p>Application now Open</p>
+                                        <p><a href=""> Application now Open</a></p>
                                     </div>
 
                                 </div>
@@ -681,11 +693,11 @@
                                         information for UK-based international students</p>
                                     <div class="services_card_bottom_link">
                                         <img src="./image/services_arrow.png">
-                                        <p>Application now Open</p>
+                                        <p><a href=""> Application now Open</a></p>
                                     </div>
                                     <div class="services_card_bottom_link">
                                         <img src="./image/services_arrow.png">
-                                        <p>Application now Open</p>
+                                        <p><a href=""> Application now Open</a></p>
                                     </div>
 
                                 </div>
@@ -971,6 +983,14 @@
                 mainClass: 'my-mfp-slide-bottom'
             });
         });
+        function search_btn() {
+            document.getElementById("search_btn_drop").classList.toggle("add");
+
+        }
+        function close1()  {
+            document.getElementById("search_btn_drop").classList.remove("add");
+
+        }
     </script>
 </body>
 
