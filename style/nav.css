@@ -182,6 +182,11 @@ p {
         padding: 8px 16px;
     } */
     }
+    .dropdown-content a {
+        padding: 6px 18px !important;
+        margin: 4px 4px !important;
+        font-size: 12px !important;
+    }
 
 }
 
@@ -190,6 +195,7 @@ p {
     border: none;
     background-color: #fff;
     outline: none;
+    font-size: 12px;
 }
 
 

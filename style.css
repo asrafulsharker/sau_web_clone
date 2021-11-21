@@ -177,10 +177,16 @@ p {
         margin-top: 33%;
         margin-right: -1%;
 
+        height: 40px;
         /* .dropdown-content a {
         color: black;
         padding: 8px 16px;
     } */
+    }
+    .dropdown-content a {
+        padding: 6px 18px !important;
+        margin: 4px 4px !important;
+        font-size: 12px !important;
     }
 
 }
@@ -190,6 +196,7 @@ p {
     border: none;
     background-color: #fff;
     outline: none;
+    font-size: 12px;
 }
 
 
