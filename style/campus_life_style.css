@@ -81,12 +81,13 @@ p {
     padding: 0vw 5vw 0vw 5vw;
 }
 
-.hall_home_home_top_link {
+.hall_home_home_top_link{
     display: flex;
-    /* margin-bottom: 15px; */
-    font-size: 16px !important;
-    /* margin-top: 80px; */
-    padding: 10px 0px;
+    align-items: center;
+    padding: 10px 1.5% 10px;
+    font-size: 16px;
+    margin-top: 125px !important;
+    /* background-color: red; */
 }
 
 .hall_home_home_top_link img {
@@ -609,11 +610,21 @@ p {
     letter-spacing: 0.01em;
     color: #413D3D;
 }
+@media screen and (max-width :800px) {
+    .hall_home_home_top_link {
+        font-size: 12px !important;
+        margin-top: 90px !important;
+    }
+    
+}
 
 @media screen and (max-width :550px) {
     .hall_expert_component {
         flex-wrap: wrap;
         width: 100%;
+    }
+    .hall_home_home_top_link{
+        font-size: 12px;
     }
 
     .hall_expert_component img {
