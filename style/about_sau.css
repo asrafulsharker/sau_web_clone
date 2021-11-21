@@ -41,8 +41,8 @@ p {
 .about_sau_top_link {
     display: flex;
     align-items: center;
-    padding: 15px 0px 8px 0px;
-
+    padding: 10px 0px 10px 0px;
+    margin-top: 125px;
 
 }
 
@@ -189,13 +189,23 @@ p {
 }
 
 /* responsive css start  */
-
+@media screen and (max-width :800px) {
+    .about_sau_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
+    
+}
 @media screen and (max-width :520px) {
     .nav_main {
         height: 8vh;
     }
     .about_sau_top_link p {
         font-size: 12px;
+    }
+    .about_sau_top_link{
+        margin-top: 70px;
+        font-size: 12px !important;
     }
     .about_sau {
         /* margin-top: 6vh; */

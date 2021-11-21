@@ -203,7 +203,7 @@ p {
     display: flex;
     justify-content: center;
     /* overflow: hidden; */
-    /* position: fixed;  */
+    position: fixed; 
     top: 0;
     width: 100%;
     z-index: 10;

@@ -99,6 +99,7 @@ p {
     align-items: center;
     padding: 10px 1.5% 10px;
     font-size: 16px;
+    margin-top: 125px;
 }
 
 .faculty_home_main_option {
@@ -291,13 +292,22 @@ p {
         width: 100% !important;
     }
 }
-
+@media screen and (max-width :800px) {
+    .faculty_home_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
+    
+}
 
 @media screen and (max-width :520px) {
     .dept_home_left_item {
         display: none !important;
     }
-
+    .faculty_home_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
     .sau_library_btn {
         display: flex !important;
         z-index: 1000 !important;

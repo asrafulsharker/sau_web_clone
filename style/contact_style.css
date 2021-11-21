@@ -32,6 +32,7 @@ p {
     display: flex;
     padding: 10px 0px 10px 0px;
     font-size: 16px;
+    margin-top: 125px;
 }
 
 .contact_home_top_link img {
@@ -425,7 +426,14 @@ p {
     }
 }
 
-@media screen and (max-width :511px) {
+@media screen and (max-width :800px) {
+    .contact_home_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
+    
+}
+@media screen and (max-width :520px) {
     .contact_cover_bottom a {
         font-size: 12px;
         padding: 0px 8px;
@@ -433,7 +441,7 @@ p {
     }
     .contact_home_top_link {
         font-size: 12px;
-        margin-top: 95px;
+        margin-top: 90px;
     }
 
     .contact_cover {

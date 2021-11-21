@@ -28,6 +28,7 @@ p {
     /* margin-bottom: 15px; */
     padding: 10px 0px;
     font-size: 16px !important;
+    margin-top: 125px;
 }
 
 .why_library_cover_top_link img {
@@ -156,7 +157,13 @@ p {
 
 /* why library_css responsive start  */
 
-
+@media screen and (max-width :800px) {
+    .why_library_cover_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
+    
+}
 
 @media screen and (max-width :520px) {
     .why_library_img {
@@ -173,6 +180,10 @@ p {
     }
     .why_library_cover_top_link{
         font-size: 12px;
+    }
+    .why_library_cover_top_link {
+        font-size: 12px !important;
+        margin-top: 0px;
     }
 }
 

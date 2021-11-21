@@ -29,6 +29,7 @@ p {
     display: flex;
     align-items: center;
     padding: 10px 1.5%;
+    margin-top: 125px;
 }
 
 .faculty_home_top_link a img {
@@ -144,6 +145,10 @@ p {
 
     .dropdown_single {
         width: 100% !important;
+    }
+    .faculty_home_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
     }
 }
 

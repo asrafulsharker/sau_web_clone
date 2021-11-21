@@ -61,6 +61,7 @@ p {
     align-items: center;
     padding: 10px 0px 10px !important;
     font-size: 16px;
+    margin-top: 125px !important;
 }
 
 .contact_cover_top_link img {
@@ -139,11 +140,21 @@ p {
     }
 }
 
+@media screen and (max-width :800px) {
+    .contact_cover_top_link {
+        font-size: 12px !important;
+        margin-top: 90px !important;
+    }
+    
+}
 @media screen and (max-width :520px) {
     .contact_img {
         font-size: 18px;
     }
-
+    .contact_cover_top_link{
+        font-size: 12px;
+        
+    }
     .contact_img img {
         height: 4px;
         margin-top: 0px;

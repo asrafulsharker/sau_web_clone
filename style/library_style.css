@@ -89,8 +89,9 @@ p {
 
 .library_membar_top_link {
     display: flex;
-    padding: 10px 0px 15px;
+    padding: 10px 0px 10px;
     font-size: 16px !important;
+    margin-top: 125px;
 }
 
 .library_membar_top_link img {
@@ -485,7 +486,13 @@ p {
 }
 
 /* resoponsive start  */
-
+@media screen and (max-width :800px) {
+    .library_membar_top_link {
+        font-size: 12px !important;
+        margin-top: 90px;
+    }
+    
+}
 @media screen and (max-width :520px) {
     .library_home_left {
         display: none;
@@ -496,7 +503,8 @@ p {
         z-index: 1000;
     }
     .library_membar_top_link{
-        font-size: 12px;
+        font-size: 12px !important;
+        margin-top: 70px;
     }
     .nav_main {
         height: 8vh;
