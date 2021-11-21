@@ -20,12 +20,13 @@ p {
 
 /* contact cover start css  */
 .why_library_cover {
-    margin-top: 16vh;
+    /* margin-top: 16vh; */
 }
 
 .why_library_cover_top_link {
     display: flex;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    padding: 10px 0px;
     font-size: 16px !important;
 }
 
@@ -169,6 +170,9 @@ p {
 
     .why_library_cover {
         margin-top: 8vh;
+    }
+    .why_library_cover_top_link{
+        font-size: 12px;
     }
 }
 
