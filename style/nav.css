@@ -212,6 +212,7 @@ p {
     /* position: absolute; */
     transition: all .5s ease;
     border-bottom:1px solid #CBCBCB;
+    background-color: #fff;
 }
 
 .nav_label_one {
