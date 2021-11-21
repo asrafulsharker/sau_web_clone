@@ -244,13 +244,12 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 23.073px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 18px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-
     text-decoration: none !important;
-    margin: 1%;
+    margin: 1% 0% 5%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -260,7 +259,7 @@ p {
 .view_gallery {
     text-align: center;
     background: #000000;
-    padding: 12px 35px;
+    padding: 8px 20px;
     text-decoration: none;
     color: #fff;
 }
