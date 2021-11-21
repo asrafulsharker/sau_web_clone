@@ -166,9 +166,9 @@ p {
     }
 
     .dropdown-content a {
-        padding: 4px 25px !important;
+        padding: 6px 18px !important;
         margin: 8px 8px !important;
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 }
 
@@ -176,7 +176,7 @@ p {
     .add {
         margin-top: 33%;
         margin-right: -1%;
-
+        height: 40px;
         /* .dropdown-content a {
         color: black;
         padding: 8px 16px;
