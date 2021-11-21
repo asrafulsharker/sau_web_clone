@@ -196,7 +196,7 @@ p {
     border: none;
     background-color: #fff;
     outline: none;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
 
@@ -377,7 +377,9 @@ p {
         border: 1px solid #54E346;
         margin-left: 5px;
     }
-
+    #searchInput{
+        font-size: 12px;
+    }
 }
 
 
