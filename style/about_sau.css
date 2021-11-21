@@ -158,7 +158,7 @@ p {
 .information_top {
     display: flex;
     align-items: center;
-    padding: 0vh 0 2vh 0;
+    padding: 0vh 0 3vh 0;
 }
 
 .information_top p {
