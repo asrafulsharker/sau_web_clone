@@ -21,7 +21,7 @@ p {
 
 /* contact cover start css  */
 .contact_cover {
-    margin-top: 16vh;
+    /* margin-top: 16vh; */
 }
 
 .contact_cover_main {
@@ -30,7 +30,7 @@ p {
 
 .contact_home_top_link {
     display: flex;
-    padding: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     font-size: 16px;
 }
 
@@ -412,7 +412,7 @@ p {
 
 @media screen and (max-width :800px) {
     .contact_cover {
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
     }
 
     .feedback_input_single_item {
@@ -437,7 +437,7 @@ p {
     }
 
     .contact_cover {
-        margin-top: 8vh !important;
+        /* margin-top: 8vh !important; */
     }
 
     .contact_img {

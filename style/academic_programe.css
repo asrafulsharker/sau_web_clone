@@ -30,7 +30,7 @@ p {
 
 /* contact cover start css  */
 .contact_cover {
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
 }
 
 .contact_cover_main {
@@ -59,7 +59,7 @@ p {
 .contact_cover_top_link {
     display: flex;
     align-items: center;
-    padding: 30px 0px 15px !important;
+    padding: 10px 0px 10px !important;
     font-size: 16px;
 }
 
@@ -123,7 +123,7 @@ p {
 /* contact cover start responsive css  */
 @media screen and (max-width :800px) {
     .contact_cover {
-        margin-top: 8vh;
+        /* margin-top: 8vh; */
     }
 
     .postgradute_bottom {

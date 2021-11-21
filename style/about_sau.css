@@ -19,7 +19,7 @@ p {
 /* about sau cover css start  */
 .about_sau {
     /* padding: 2vh 5vw 0vw 5vw; */
-    margin-top: 16vh;
+    /* margin-top: 16vh; */
 }
 
 .about_link_p {
@@ -31,7 +31,7 @@ p {
     text-align: justify;
     letter-spacing: 0.01em;
     color: #049906 !important;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .about_link_p a {
@@ -198,7 +198,7 @@ p {
         font-size: 12px;
     }
     .about_sau {
-        margin-top: 6vh;
+        /* margin-top: 6vh; */
     }
 
     .about_link_p {

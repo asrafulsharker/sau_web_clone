@@ -28,7 +28,7 @@ p {
 .faculty_home_top_link {
     display: flex;
     align-items: center;
-    padding: 5px 0px;
+    padding: 10px 1.5%;
 }
 
 .faculty_home_top_link a img {
@@ -888,7 +888,7 @@ p {
 
 
 .dept_home {
-    padding: 15vh 5vw 5vh 5vw;
+    padding: 0vh 5vw 5vh 5vw;
 }
 
 .dept_home_main {
@@ -897,7 +897,8 @@ p {
 
 .dva_home_top_link {
     display: flex;
-    margin: 0px 0px 15px 0px;
+    /* margin: 0px 0px 15px 0px; */
+    padding: 10px 0px 10px;
     font-size: 12px;
 }
 
@@ -1417,7 +1418,7 @@ p {
 
 @media screen and (max-width :800px) {
     .dept_home {
-        padding: 9vh 5vw 5vh 5vw;
+        /* padding: 9vh 5vw 5vh 5vw; */
     }
 }
 

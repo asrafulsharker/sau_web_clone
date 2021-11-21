@@ -91,13 +91,13 @@ p {
 
 .faculty_home_main {
     padding: 0vw 5vw 0vw 5vw;
-    margin-top: 16vh;
+    /* margin-top: 16vh; */
 }
 
 .faculty_home_top_link {
     display: flex;
     align-items: center;
-    padding: 15px 0px 15px;
+    padding: 10px 0px 10px;
     font-size: 16px;
 }
 
@@ -314,7 +314,7 @@ p {
     }
 
     .faculty_home_main {
-        margin-top: 8vh;
+        /* margin-top: 8vh; */
     }
     .faculty_home_top_link {
         font-size: 12px;

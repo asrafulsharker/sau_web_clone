@@ -209,7 +209,7 @@ p {
     z-index: 10;
     /* border: 1px solid #757575; */
     padding: 10px 0px;
-    position: absolute;
+    /* position: absolute; */
     transition: all .5s ease;
     border-bottom:1px solid #CBCBCB;
 }
