@@ -411,6 +411,7 @@ p {
     backdrop-filter: blur(200px);
     height: 100vh;
     padding: 0px 60px;
+    position: fixed;
 }
 
 .nav_pop_icon {
@@ -604,7 +605,7 @@ p {
 .nav_pop_bar.open {
     visibility: visible !important;
     z-index: 1000;
-    left: 0% !important;
+    left: 35% !important;
     overflow: visible;
 }
 
@@ -711,6 +712,9 @@ p {
 
     .home_btn {
         margin-top: 52vh !important;
+    }
+    .nav_pop_bar.open{
+        left: 0% !important;
     }
 }
 

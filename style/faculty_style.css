@@ -424,7 +424,10 @@ p {
     box-sizing: border-box;
 }
 
-
+.seemore_btn{
+    color: #153E90;
+    font-weight: bold;
+}
 .faculty_agriculture_item {
     font-family: Roboto;
     font-style: normal;
@@ -699,26 +702,26 @@ p {
 }
 
 .candc_left_p2 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
     line-height: 20px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     padding: 15px;
 }
 
 .candc_left_p3 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
     line-height: 20px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     margin-top: 5px;
     padding: 15px;
 
@@ -742,26 +745,26 @@ p {
 }
 
 .candc_right_p2 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
     line-height: 20px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     padding: 15px;
 }
 
 .candc_right_p3 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
     line-height: 20px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     margin-top: 5px;
     padding: 15px;
 }
@@ -790,7 +793,7 @@ p {
 .services_arrow_p1 {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18.0268px;
     line-height: 22px;
     letter-spacing: 0.06em;
