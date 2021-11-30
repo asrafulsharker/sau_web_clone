@@ -707,7 +707,7 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
     color: #000;
     padding: 15px;
@@ -719,7 +719,7 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
     color: #000;
     margin-top: 5px;
@@ -728,7 +728,9 @@ p {
 
 }
 
-
+.candc_left_p3 span{
+    font-weight: 400;
+}
 .candc_right_p1 {
     background: #153E90;
     font-family: Roboto;
@@ -744,16 +746,22 @@ p {
 
 }
 
+.candc_left_p2 span{
+    font-weight: 400;
+}
 .candc_right_p2 {
     background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
     color: #000;
     padding: 15px;
+}
+.candc_right_p2 span{
+    font-weight: 400;
 }
 
 .candc_right_p3 {
@@ -762,13 +770,16 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
     color: #000;
     margin-top: 5px;
     padding: 15px;
 }
 
+.candc_right_p3 span{
+    font-weight: 400;
+}
 /* candc css end  */
 
 /* services css start  */
@@ -806,11 +817,11 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 14.0943px;
-    line-height: 20px;
+    line-height: 18px;
     letter-spacing: 0.06em;
     color: #000000;
     margin-top: 8px;
-    margin: 20px 0px !important;
+    margin: 12px 0px !important;
 }
 
 .services_card_bottom_link {
