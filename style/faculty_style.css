@@ -821,7 +821,7 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 14.0943px;
-    line-height: 18px;
+    line-height: 14px;
     letter-spacing: 0.06em;
     color: #000000;
     margin-top: 8px;
@@ -848,6 +848,7 @@ p {
 .services_card_bottom_link p a{
     text-decoration: none;
     color: #000;
+    font-size: 16px;
 }
 
 .services_card_bottom_link img {
@@ -856,6 +857,7 @@ p {
 
 .card-img-top {
     height: 130px !important;
+    border-bottom: 5px solid #153E90;
 }
 
 /* services card responsive start  */
