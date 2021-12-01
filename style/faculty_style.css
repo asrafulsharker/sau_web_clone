@@ -813,7 +813,7 @@ p {
     line-height: 22px;
     letter-spacing: 0.06em;
     color: #000000;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 .services_arrow_p2 {
@@ -857,7 +857,7 @@ p {
 
 .card-img-top {
     height: 130px !important;
-    border-bottom: 5px solid #153E90;
+    border-bottom: 5px solid #187AF1;
 }
 
 /* services card responsive start  */
