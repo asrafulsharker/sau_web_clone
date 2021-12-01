@@ -623,7 +623,7 @@ p {
     align-items: center;
     justify-content: end;
     flex-wrap: wrap;
-    /* width: 100% !important; */
+    width: 100% !important;
 }
 
 .glance_right img {
