@@ -614,8 +614,8 @@ p {
 
 
 .glance_left img {
-    height: 170px;
-    padding: 15px;
+    height: 150px;
+    padding: 10px;
 }
 
 .glance_right {
@@ -623,7 +623,7 @@ p {
     align-items: center;
     justify-content: end;
     flex-wrap: wrap;
-    width: 60% !important;
+    /* width: 100% !important; */
 }
 
 .glance_right img {
