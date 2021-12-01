@@ -893,6 +893,7 @@ p {
     line-height: 37px;
     letter-spacing: 0.045em;
     color: #000000;
+    margin-bottom: 12px;
 }
 
 .t_education_details_single_p2 {
@@ -934,6 +935,10 @@ p {
     border-bottom: 1px solid #DEDEDE;
 }
 
+.t_language_single_a{
+    padding: 3%;
+}
+
 .t_language_single_p1 {
     font-family: Roboto;
     font-style: normal;
@@ -942,6 +947,7 @@ p {
     line-height: 28px;
     letter-spacing: 0.01em;
     color: #000000;
+    margin-bottom: 12px !important;
 }
 
 .t_language_single_p2 {
