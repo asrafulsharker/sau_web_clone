@@ -457,7 +457,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.01em;
@@ -637,7 +637,7 @@ p {
 }
 
 .highlights_components:hover {
-    background-color: #007bff;
+    background-color: #049906;
     color: #ffff;
 }
 
@@ -791,6 +791,8 @@ p {
 
 
 /* glance css start  */
+
+/* glance css start  */
 .glance {
     padding: 20px 0px;
 }
@@ -806,13 +808,14 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 40%;
 }
 
 .glance_left_p1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -823,7 +826,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 25.464px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.01em;
     text-decoration-line: underline;
@@ -838,8 +841,8 @@ p {
 
 
 .glance_left img {
-    height: 170px;
-    padding: 15px;
+    height: 100px;
+    padding: 5px;
 }
 
 .glance_right {
@@ -847,7 +850,7 @@ p {
     align-items: center;
     justify-content: end;
     flex-wrap: wrap;
-    width: 70% !important;
+    width: 100% !important;
 }
 
 .glance_right img {
@@ -875,7 +878,15 @@ p {
         justify-content: center;
         flex-wrap: wrap;
         width: 100% !important;
-        margin-top: 10px;
+    }
+    .glance_main{
+        justify-content: center;
+    }
+    .glance_left{
+        width: 100%;
+    }
+    .glance_right{
+        margin-top: 15px;
     }
 }
 
@@ -883,9 +894,12 @@ p {
     .glance_main {
         display: block !important;
     }
+
 }
 
 /* glance responsive css end  */
+
+/* glance css end  */
 /* our strength css end  */
 
 
@@ -1038,7 +1052,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.01em;
@@ -1419,6 +1433,7 @@ p {
 
 .card-img-top {
     height: 130px !important;
+    border-bottom: 5px solid #049906;
 }
 
 @media screen and (max-width :800px) {
