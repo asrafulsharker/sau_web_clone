@@ -1830,7 +1830,6 @@ p {
 /* collspase css end  */
 
 
-
 /* glance css start  */
 .glance {
     padding: 20px 0px;
@@ -1854,7 +1853,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
     letter-spacing: 0.01em;
     color: #000000;
@@ -1865,7 +1864,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 25.464px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.01em;
     text-decoration-line: underline;
@@ -1880,8 +1879,8 @@ p {
 
 
 .glance_left img {
-    height: 170px;
-    padding: 15px;
+    height: 100px;
+    padding: 5px;
 }
 
 .glance_right {
@@ -1889,7 +1888,7 @@ p {
     align-items: center;
     justify-content: end;
     flex-wrap: wrap;
-    width: 60% !important;
+    width: 100% !important;
 }
 
 .glance_right img {
@@ -1918,17 +1917,25 @@ p {
         flex-wrap: wrap;
         width: 100% !important;
     }
+    .glance_main{
+        justify-content: center;
+    }
+    .glance_left{
+        width: 100%;
+    }
+    .glance_right{
+        margin-top: 15px;
+    }
 }
 
 @media screen and (max-width :500px) {
     .glance_main {
         display: block !important;
     }
+
 }
 
 /* glance responsive css end  */
-
-/* glance css end  */
 
 /* candc css start  */
 .candc {
@@ -1958,26 +1965,26 @@ p {
 }
 
 .candc_left_p2 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     padding: 15px;
 }
 
 .candc_left_p3 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     margin-top: 5px;
     padding: 15px;
 
@@ -2001,26 +2008,26 @@ p {
 }
 
 .candc_right_p2 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     padding: 15px;
 }
 
 .candc_right_p3 {
-    background: #1E1E1E;
+    background: #F7F7F7 ;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16.7075px;
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #000;
     margin-top: 5px;
     padding: 15px;
 }
@@ -2031,11 +2038,10 @@ p {
 .services {
     padding: 20px 0px;
 }
-/* 
+
 .card {
-    width: 32% !important;
-    border: none;
-} */
+    margin: 0px 1.5%;
+}
 
 .card-body {
     background: #F7F7F7 !important;
@@ -2050,12 +2056,12 @@ p {
 .services_arrow_p1 {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18.0268px;
     line-height: 22px;
     letter-spacing: 0.06em;
     color: #000000;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 .services_arrow_p2 {
@@ -2063,11 +2069,11 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 14.0943px;
-    line-height: 20px;
+    line-height: 14px;
     letter-spacing: 0.06em;
     color: #000000;
     margin-top: 8px;
-    margin: 20px 0px !important;
+    margin: 12px 0px !important;
 }
 
 .services_card_bottom_link {
@@ -2087,12 +2093,19 @@ p {
     margin-left: 10px;
 }
 
+.services_card_bottom_link p a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
 .services_card_bottom_link img {
     width: 12px;
 }
 
 .card-img-top {
     height: 130px !important;
+    border-bottom: 5px solid #187AF1;
 }
 
 /* services card responsive start  */
@@ -2314,7 +2327,7 @@ p {
     text-align: justify;
     letter-spacing: 0.01em;
     text-decoration-line: underline;
-    color: #007bff;
+    color: #000;
 }
 
 .highlights_collapse_component img {
