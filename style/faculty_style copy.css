@@ -1578,6 +1578,10 @@ p {
 .card_btn_achivement {
     background: #284E8D ;
 }
+.card_style{
+    width: 32% !important;
+    border: none;
+}
 /* .card {
     width: 32% !important;
     border: none;
@@ -2027,10 +2031,11 @@ p {
 .services {
     padding: 20px 0px;
 }
-
+/* 
 .card {
-    margin: 0px 1.5%;
-}
+    width: 32% !important;
+    border: none;
+} */
 
 .card-body {
     background: #F7F7F7 !important;
