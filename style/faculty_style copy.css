@@ -15,7 +15,9 @@ p {
     margin-top: 0;
     margin-bottom: 0rem !important;
 }
-
+.card-body{
+    background-color: #fff !important;
+}
 .nav_main {
     display: flex;
     justify-content: center;
@@ -2044,7 +2046,7 @@ p {
 }
 
 .card-body {
-    background: #F7F7F7 !important;
+    background: #fff !important;
     padding: 1rem !important;
 }
 
