@@ -1034,7 +1034,7 @@ p {
 
 .content {
     position: relative;
-    background-color: #ffff;
+    /* background-color: #ffff; */
     height: 0;
     overflow: hidden;
     transition: 0.5s;
