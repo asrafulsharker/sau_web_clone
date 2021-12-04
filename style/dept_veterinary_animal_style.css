@@ -125,7 +125,10 @@ p {
     border: 1px solid #C8BCBC;
     box-sizing: border-box;
 }
-
+.seemore_btn{
+    color: #0E4A0F;
+    text-decoration: none;
+}
 
 /* faculty home responsive  start  */
 @media screen and (max-width :880px) {
@@ -835,7 +838,7 @@ p {
 }
 
 .glance_right img {
-    height: 135px !important;
+    height: 160px !important;
     padding: 3px;
 }
 
