@@ -268,7 +268,7 @@ p {
 /* fand c start css  */
 
 .fandc {
-    margin: 5vh 5vw 5vh 5vw;
+    margin: 3vh 5vw 3vh 5vw;
 }
 
 .fandc_main {
@@ -326,7 +326,32 @@ p {
     .inter_student_main {
         /* margin: 1vh 3vw 0vw 3vw; */
     }
-
+    .home_arrow_next {
+        margin-top: -44vh !important;
+    }
+    .home_arrow_next {
+        margin-left: 84% !important;
+    }
+    .home_arrow_next {
+        background-color: #000;
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .home_arrow_next span img {
+        height: 45px !important;
+        padding: 12px 17px 10px !important;
+    }
+    .home_arrow_prev {
+        margin-top: -44vh !important;
+    }
+    .home_arrow_prev {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .home_arrow_prev span img {
+        height: 45px !important;
+        padding: 12px 17px 10px !important;
+    }
 }
 
 /* fand c css end  */
@@ -461,7 +486,20 @@ p {
         margin-top: -23%;
     }
 }
-
+@media screen and (max-width: 1000px) {
+    .home_arrow_next {
+        margin-top: -34%;
+    }
+    .home_arrow_next {
+        margin-left: 85%;
+    }
+    .home_arrow_prev {
+        margin-top: -34%;
+    }
+    .home_arrow_prev {
+        margin-left: -1%;
+    }
+}
 @media screen and (max-width: 540px) {
     .home_arrow_next {
         margin-top: -60%;
@@ -516,11 +554,15 @@ p {
         width: 30px;
     }
     .home_arrow_prev {
-        margin-left: -1%;
+        margin-left: -3% !important;
+        margin-top: -28vh !important;
     }
     .home_arrow_prev span img {
         height: 45px;
         padding: 6px 7px 21px;
+    }
+    .home_arrow_prev {
+        margin-top: -28vh !important;
     }
 }
 @media screen and (max-width :800px) {
