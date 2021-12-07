@@ -176,7 +176,7 @@ p {
     }
 
     .why_library_cover {
-        margin-top: 8vh;
+        margin-top: 10vh;
     }
     .why_library_cover_top_link{
         font-size: 12px;
@@ -269,7 +269,23 @@ p {
 }
 
 /* campus offer card responsive css start  */
-@media screen and (max-width :520px) {
+@media screen and (max-width :800px) {
+    .why_library_main {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why_library_right {
+        padding: 0% 0% 0% 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 4% 0%;
+    }
+}
+@media screen and (max-width :600px) {
     .why_library_main {
         flex-wrap: wrap;
     }
