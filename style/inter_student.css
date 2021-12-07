@@ -13,12 +13,17 @@ p {
 }
 
 
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
 .about_sau_top_link{
     display: flex;
     align-items: center;
     font-size: 16px;
     padding: 1% 0%;
-    margin: 0vh 5vw 0vh 5vw;
+    /* margin: 0vh 5vw 0vh 5vw; */
 }
 
 .inter_student_main {
@@ -26,10 +31,13 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* margin: 18vh 5vw 0vw 5vw;  */
+    
 }
 
 .inter_student {
-    /* margin: 18vh 5vw 0vw 5vw; */
+    margin: 18vh 5vw 0vw 5vw;
+    margin-top: 125px ;
 }
 
 .inter_student_cover_left {
@@ -105,9 +113,9 @@ p {
     }
 
     .inter_student_cover_right {
-        font-size: 45px;
-        line-height: 45px;
-        padding: 10%;
+        font-size: 32px;
+    line-height: 32px;
+    padding: 12%;
     }
 
     .card-body {
@@ -120,6 +128,9 @@ p {
 
     .testimonial_slider_main img {
         margin-bottom: 600px !important;
+    }
+    .inter_student {
+        margin-top: 95px;
     }
 }
 
@@ -140,12 +151,20 @@ p {
     }
 
     .inter_student_cover_right {
-        font-size: 35px;
-        line-height: 30px;
-        padding: 15%;
+        font-size: 28px;
+    line-height: 28px;
+    padding: 15%;
     }
     .about_sau_top_link{
         font-size: 12px;
+    }
+    .inter_student_cover_left_component {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px !important;
+    }
+    .inter_student_cover_left p {
+        margin-bottom: 10px !important;
     }
 }
 
@@ -156,7 +175,7 @@ p {
 
 /* services css start  */
 .inter_card {
-    margin: 5vh 5vw 5vh 5vw;
+    margin: 2vh 5vw 0vh 5vw;
     align-items: center;
     justify-content: center;
 }
@@ -167,7 +186,7 @@ p {
 }
 
 .card {
-    margin: 0px 1.6%;
+    /* margin: 0px 1.6%; */
 }
 
 .card img {
@@ -301,11 +320,11 @@ p {
     }
 
     .fandc {
-        margin: 5vh 3vw 5vh 3vw !important;
+        /* margin: 5vh 3vw 5vh 3vw !important; */
     }
 
     .inter_student_main {
-        margin: 1vh 3vw 0vw 3vw;
+        /* margin: 1vh 3vw 0vw 3vw; */
     }
 
 }
@@ -474,7 +493,36 @@ p {
         width: 50px;
     }
 }
-
+@media screen and (max-width: 520px) {
+    .home_arrow_next span img {
+        height: 41px;
+        padding: 7px 10px 15px;
+    }
+    .home_arrow_next {
+        height: 30px;
+        width: 30px;
+    }
+    .home_arrow_next {
+        margin-left: 85%;
+    }
+    .home_arrow_next {
+        margin-top: -28vh !important;
+    }
+    .home_arrow_prev {
+        margin-top: -28vh;
+    }
+    .home_arrow_prev {
+        height: 30px;
+        width: 30px;
+    }
+    .home_arrow_prev {
+        margin-left: -1%;
+    }
+    .home_arrow_prev span img {
+        height: 45px;
+        padding: 6px 7px 21px;
+    }
+}
 @media screen and (max-width :800px) {
     .testimonial_main_p1 {
         text-align: center;
