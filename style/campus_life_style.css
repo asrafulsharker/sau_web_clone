@@ -1361,7 +1361,11 @@ p {
 }
 
 /* resoponsive start  */
-
+@media screen and (max-width :600px) {
+    .campus_life_img img{
+        width: 100%;
+    }
+}
 @media screen and (max-width :520px) {
     .library_home_left {
         display: none;
@@ -1480,9 +1484,12 @@ p {
     }
 
     .hall_home_right_top_cover p {
-        font-size: 32px !important;
+        font-size: 28px !important;
+        line-height: 45px;
     }
-
+    .hall_home_right_top_cover img{
+        width: 40%;
+    }
     .hall_home_left {
         display: none;
     }

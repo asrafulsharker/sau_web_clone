@@ -493,10 +493,43 @@ p {
     }
     
 }
+@media screen and (max-width :600px) {
+    .why_library_img img {
+        width: 100%;
+    }
+    .library_name_details{
+        flex-wrap: wrap;
+    }
+    .library_component{
+        width: 100%;
+    }
+    .library_home_right_top_cover{
+        font-size: 32px !important;
+    }
+    .library_home_right_top_cover img{
+        width: 25%;
+    }
+    .what_our_library{
+        flex-wrap: wrap;
+    }
+    .what_our_library_left{
+        width: 100%;
+    }
+    .what_our_library_right{
+        width: 100%;
+    }
+    .teaching_diversity_left{
+        width: 100%;
+    }
+    .teaching_diversity_right{
+        width: 100%;
+    }
+}
 @media screen and (max-width :520px) {
     .library_home_left {
         display: none;
     }
+    
 
     .sau_library_btn {
         display: flex;
