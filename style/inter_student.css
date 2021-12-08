@@ -37,6 +37,7 @@ p {
 
 .inter_student {
     margin: 18vh 5vw 0vw 5vw;
+    
     margin-top: 125px ;
 }
 
@@ -138,13 +139,24 @@ p {
     .inter_student_cover {
         flex-wrap: wrap;
     }
-
+    .inter_student {
+        margin-top: 65px;
+    }
+    .inter_student_main {
+        margin-top: 5px;
+    }
+    .inter_card {
+        margin: 0vh 5vw 0vh 5vw !important;
+    }
     .inter_student_cover_left {
         width: 100% !important;
         background: rgba(21, 62, 144, 0.83);
         padding: 4%;
     }
-
+    .card {
+        width: 100% !important;
+        margin-top: 3% !important;
+    }
     .card {
         width: 100% !important;
         margin-top: 2% !important;
@@ -257,7 +269,16 @@ p {
 @media screen and (max-width :520px) {
     .card {
         width: 100% !important;
-        margin-top: 5% !important;
+        margin-top: 3% !important;
+    }
+    .fandc {
+        margin: 2vh 5vw 0vh 5vw;
+    }
+    .testimonial {
+        margin: 2vh 5vw 2vh 5vw;
+    }
+    .testimonial_slider_main {
+        margin-top: 70px;
     }
 }
 
