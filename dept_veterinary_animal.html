@@ -45,7 +45,7 @@
 
     <!-- nav section start  -->
     <section class="nav" id="nav">
-        <div class="nav_main" >
+        <div class="nav_main">
             <div class="left_nav">
                 <a class="left_nav" href="./index.html">
                     <img src="./image/sau_logo.png" alt="logo" />
@@ -67,10 +67,10 @@
                     <input type="text" placeholder="Search.." id="searchInput" onkeyup="filterFunction()">
                     <a href="">Search</a>
                 </div>
-                <div  class="nav_icon_main">
+                <div class="nav_icon_main">
                     <p class="nav_icon nav_icon_2">En</p>
                 </div>
-                <div  class="nav_icon_main nav-toggler nav_toggle" id="nav_icon_main">
+                <div class="nav_icon_main nav-toggler nav_toggle" id="nav_icon_main">
                     <img class="nav_icon nav_icon_3" src="./image/bar_icon.png" alt="bar">
                 </div>
             </div>
@@ -145,11 +145,17 @@
     <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
     <div id="small-dialog" class="zoom-anim-dialog mfp-hide sau_dialog">
         <h1>SAU Library</h1>
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
+        <a href="">CHANCELLOR</a>
+        <a href="">VICE-CHANCELLOR</a>
+        <a href="">TREASURER OFFICE</a>
+        <a href="">DEAN COUNCIL</a>
+        <a href="">PROVOST COUNCIL</a>
+        <a href="">EXCUTIVE COMMITTE</a>
+        <a href="">PROCTOR OFFICE</a>
+        <a href="">CENTRAL OFFICE</a>
+        <a href="">CENTRAL STORE</a>
+        <a href="">SEQURITY SECTION</a>
+        <a href="">ICT CELL</a>
     </div>
     <a href="#small-dialog" class=" popup-with-move-anim  sau_library_btn">SAU Library</a>
     <section class="dept_home">
@@ -210,25 +216,32 @@
                         the practical and quality education that prepares them for careers in an increasing job
                         market.
 
-                      
-                        <a class="seemore_btn" data-toggle="collapse" href="#seemore" role="button" aria-expanded="false" aria-controls="collapseExample">See More</a>
-                            <div class="collapse" id="seemore">
-                                <div class="">
-                               
 
-                                    <br>
-                                    The Faculty of Fisheries offers a pleasant and stimulating academic environment where the
-                                    views, values, ideas, and experiences of students from all over the country are shared and
-                                    evaluated meticulously through continuous collaboration among students and faculty members.
-                                    <br><br>
-                                    The faculty offers BSc, MS, and Ph.D. degrees. The faculty is currently operating with six
-                                    departments – Department of Aquaculture, Department of Aquatic Resource Management,
-                                    Department of Coastal and Marine Fisheries, Department of Fish Health Management, Department
-                                    of Fish Biology and Genetics, and Department of Fisheries Technology and Quality Control. To
-                                    date, a total of 442 students completed graduation from this faculty. At present, the
-                                    faculty has 37 teachers, 238 students, and 11 staff.
-                                </div>
-                              </div>
+                        <a class="seemore_btn" data-toggle="collapse" href="#seemore" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">See More</a>
+                        <div class="collapse" id="seemore">
+                            <div class="">
+
+
+                                <br>
+                                The Faculty of Fisheries offers a pleasant and stimulating academic environment where
+                                the
+                                views, values, ideas, and experiences of students from all over the country are shared
+                                and
+                                evaluated meticulously through continuous collaboration among students and faculty
+                                members.
+                                <br><br>
+                                The faculty offers BSc, MS, and Ph.D. degrees. The faculty is currently operating with
+                                six
+                                departments – Department of Aquaculture, Department of Aquatic Resource Management,
+                                Department of Coastal and Marine Fisheries, Department of Fish Health Management,
+                                Department
+                                of Fish Biology and Genetics, and Department of Fisheries Technology and Quality
+                                Control. To
+                                date, a total of 442 students completed graduation from this faculty. At present, the
+                                faculty has 37 teachers, 238 students, and 11 staff.
+                            </div>
+                        </div>
                     </p>
                 </div>
 
@@ -415,10 +428,10 @@
                                         adipiscing
                                         elit. Ultrices tellus nulla leo fames metus. Consectetur habitasse congue
                                         scelerisque </p>
-                                        <a href="#" class="dept_read_me">
-                                            <p>Read Me</p>
-                                            <img src="./image/read_arrow.png">
-                                        </a>
+                                    <a href="#" class="dept_read_me">
+                                        <p>Read Me</p>
+                                        <img src="./image/read_arrow.png">
+                                    </a>
                                     <!-- <img style="width: 100%;" src="./image/notice_details_line.png" alt=""> -->
                                 </div>
                             </div>
@@ -499,7 +512,7 @@
                             <img src="./image/green_img1.png">
                             <img src="./image/green_img2.png">
                             <img src="./image/green_img3.png">
-                 
+
                         </div>
                     </div>
                 </section>
@@ -859,11 +872,13 @@
                 ]
             });
         });
+
         function search_btn() {
             document.getElementById("search_btn_drop").classList.toggle("add");
 
         }
-        function close1()  {
+
+        function close1() {
             document.getElementById("search_btn_drop").classList.remove("add");
 
         }
