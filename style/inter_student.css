@@ -455,6 +455,7 @@ p {
     border-radius: 50%;
     position: absolute;
     margin-top: -12%;
+    margin-left: -1%;
 }
 
 .home_arrow_next {
@@ -464,7 +465,7 @@ p {
     border-radius: 50%;
     position: absolute;
     margin-top: -12%;
-    margin-left: 87%;
+    margin-left: 88%;
 }
 
 .home_arrow_next span img {
@@ -501,7 +502,7 @@ p {
 
     .home_arrow_prev {
         margin-top: -19%;
-        margin-left: -2%;
+        margin-left: -2% !important;
     }
 }
 
@@ -512,6 +513,7 @@ p {
 
     .home_arrow_prev {
         margin-top: -23%;
+        margin-left: -3% !important;
     }
 }
 @media screen and (max-width: 1000px) {
