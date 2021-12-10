@@ -82,7 +82,7 @@ p {
     line-height: 32px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    /* margin-bottom: 25px !important; */
+    margin-bottom: 20px !important;
 }
 
 .inter_student_cover_left_component p {
@@ -104,6 +104,7 @@ p {
 @media screen and (max-width :800px) {
     .inter_student_cover_left p {
         font-size: 18.87px;
+        margin-bottom: 15px;
     }
 
     .inter_student_cover_left_component p {
