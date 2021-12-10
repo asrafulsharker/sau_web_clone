@@ -67,6 +67,7 @@ p {
     display: flex;
     align-items: center;
     margin-bottom: 15px !important;
+    margin-bottom: 25px;
 }
 
 .inter_student_cover_left_component p a{
@@ -81,7 +82,7 @@ p {
     line-height: 32px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    margin-bottom: 25px !important;
+    /* margin-bottom: 25px !important; */
 }
 
 .inter_student_cover_left_component p {
@@ -107,6 +108,9 @@ p {
 
     .inter_student_cover_left_component p {
         font-size: 12.153px !important;
+    }
+    .inter_student_cover_left_component{
+        margin-bottom: 10px;
     }
 
     .inter_student_cover_left_component img {
@@ -176,7 +180,7 @@ p {
         margin-bottom: 0px !important;
     }
     .inter_student_cover_left p {
-        margin-bottom: 10px !important;
+        /* margin-bottom: 10px !important; */
     }
 }
 
@@ -279,6 +283,9 @@ p {
     }
     .testimonial_slider_main {
         margin-top: 70px;
+    }
+    .fandc_main p{
+        font-size: 18px !important;
     }
 }
 
@@ -551,6 +558,15 @@ p {
         height: 50px;
         width: 50px;
     }
+    .fandc_component p{
+        font-size: 12px !important;
+    }
+    .fandc_component img{
+        height: 12px;
+    }
+    .fandc_component{
+        margin-top: 2px;
+    }
 }
 @media screen and (max-width: 520px) {
     .home_arrow_next span img {
@@ -584,6 +600,15 @@ p {
     }
     .home_arrow_prev {
         margin-top: -28vh !important;
+    }
+    .fandc_main p{
+        font-size: 18px !important;
+    }
+    .fandc_component p a{
+        font-size: 12px !important;
+    }
+    .fandc_main p {
+        line-height: 35px !important;
     }
 }
 @media screen and (max-width :800px) {
