@@ -460,7 +460,7 @@ p {
     border-radius: 50%;
     position: absolute;
     margin-top: -12%;
-    margin-left: -1.5%;
+    margin-left: -0.5%;
 }
 
 .home_arrow_next {
@@ -513,7 +513,7 @@ p {
 
     .home_arrow_prev {
         margin-top: -20%;
-        margin-left: -2% !important;
+        margin-left: -1.5% !important;
     }
 }
 
