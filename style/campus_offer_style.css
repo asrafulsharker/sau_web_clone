@@ -191,7 +191,7 @@ p {
 }
 @media screen and (max-width :600px) {
     .why_library_cover {
-        margin: 10vh 4%;
+        margin: 10vh 4% 2vh;
     }
     .why_library {
         margin: 20px 4%;
@@ -325,6 +325,16 @@ p {
         font-size: 12px;
         line-height: 15px;
         margin-top: 5px;
+        display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+    }
+    .why_library_right_p2 span{
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
     }
 
     .campus_offer_card_component {
