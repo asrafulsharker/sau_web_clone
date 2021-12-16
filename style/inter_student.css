@@ -195,7 +195,7 @@ p {
 
 /* services css start  */
 .inter_card {
-    margin: 2vh 5vw 0vh 5vw;
+    margin: 4vh 5vw 2vh 5vw;
     align-items: center;
     justify-content: center;
 }
@@ -263,6 +263,7 @@ p {
 .inter_card_bottom_link p a{
     text-decoration: none;
     color: #000;
+    font-weight: bold;
 }
 .card-img-top {
     /* height: 130px !important; */
