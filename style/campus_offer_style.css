@@ -176,7 +176,7 @@ p {
     }
 
     .why_library_cover {
-        margin-top: 10vh;
+        margin-top: 10vh 3%;
     }
     .why_library_cover_top_link{
         font-size: 12px;
@@ -185,6 +185,23 @@ p {
         font-size: 12px !important;
         margin-top: 0px;
     }
+    .why_library {
+        margin: 20px 4%;
+    }
+}
+@media screen and (max-width :600px) {
+    .why_library_cover {
+        margin: 10vh 4%;
+    }
+    .why_library {
+        margin: 20px 4%;
+    }
+    .campus_offer_card_main{
+        margin: 20px 4%;
+    }
+.campus_offer_card_component {
+    width: 92% !important;
+}
 }
 
 /* why library_css responsive end  */
@@ -311,7 +328,7 @@ p {
     }
 
     .campus_offer_card_component {
-        width: 100% !important;
+        width: 92% !important;
         margin: 1% 0%;
     }
 

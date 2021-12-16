@@ -1365,6 +1365,15 @@ p {
     .campus_life_img img{
         width: 100%;
     }
+    .campus_life1{
+        background-color: #fff;
+    }
+    .campus_life_details_p2{
+        color: #000 !important;
+    }
+    .campus_life_details_p1{
+        color: #000 !important;
+    }
 }
 @media screen and (max-width :520px) {
     .library_home_left {
