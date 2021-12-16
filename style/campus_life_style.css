@@ -1374,6 +1374,9 @@ p {
     .campus_life_details_p1{
         color: #000 !important;
     }
+    .view_galary_link_div {
+        padding: 6% 0% 5%;
+    }
 }
 @media screen and (max-width :520px) {
     .library_home_left {
