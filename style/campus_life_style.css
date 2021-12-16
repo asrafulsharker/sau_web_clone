@@ -115,6 +115,10 @@ p {
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 8px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 5% 2%;
 }
 
 .hall_home_item {
@@ -130,6 +134,7 @@ p {
     background-color: #F7F7F7;
     /* border-left: 3px solid #B4B4B4; */
     border-bottom: 1px solid #B4B4B4;
+    padding: 5%;
 
 }
 
