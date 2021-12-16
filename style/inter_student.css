@@ -606,6 +606,9 @@ p {
     .home_arrow_next {
         margin-left: 80% !important;
     }
+    .testimonial_slider_main{
+        margin-top: 90px;
+    }
 }
 @media screen and (max-width: 520px) {
     .home_arrow_next span img {
