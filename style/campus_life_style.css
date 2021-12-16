@@ -96,7 +96,7 @@ p {
 }
 
 .hall_home_box {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     background: #000;
