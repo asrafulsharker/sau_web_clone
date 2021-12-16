@@ -502,11 +502,11 @@ p {
 
 @media screen and (max-width :1280px) {
     .home_arrow_next {
-        margin-top: -19%;
+        margin-top: -20%;
     }
 
     .home_arrow_prev {
-        margin-top: -19%;
+        margin-top: -20%;
         margin-left: -2% !important;
     }
 }
