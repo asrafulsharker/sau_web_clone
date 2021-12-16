@@ -428,6 +428,7 @@ p {
 
 .testimonial_slider_main_p1 {
     margin-top: 130px;
+    font-size: 42px;
 }
 
 .testimonial_slider_main_p2 {
@@ -498,6 +499,7 @@ p {
 
 .testimonial_slider_main_p3 {
     font-size: 25px !important;
+    text-align: justify !important;
 }
 .home_arrow_prev {
     margin-top: -12%;
@@ -578,7 +580,28 @@ p {
         height: 12px;
     }
     .fandc_component{
-        margin-top: 2px;
+        margin-top: -8px;
+    }
+    .inter_card_bottom_link{
+        margin-top: 12px;
+    }
+    .testimonial {
+        margin: 2vh 5vw 2vh 5vw;
+    }
+    .testimonial_main_p1 {
+        line-height: 30px;
+    }
+    testimonial_slider_main_p3 {
+        line-height: 28px;
+    }
+    .testimonial_slider_main_p3 {
+        font-size: 15px !important;
+        padding: 6%;
+        line-height: 24px !important;
+    
+    }
+    .home_arrow_next {
+        margin-top: -30vh !important;
     }
 }
 @media screen and (max-width: 520px) {
