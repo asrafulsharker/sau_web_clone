@@ -234,7 +234,7 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 14.0943px;
-    line-height: 16px;
+    line-height: 18px;
     letter-spacing: 0.06em;
     color: #000000;
     margin-top: 8px;
@@ -243,7 +243,7 @@ p {
 .inter_card_bottom_link {
     display: flex;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 11px;
 }
 
 .inter_card_bottom_link img {
@@ -306,7 +306,7 @@ p {
 
 .fandc_main {
     background: linear-gradient(0deg, #1C3D81, #1C3D81), #C4C4C4;
-    padding: 4%;
+    padding: 3%;
 }
 
 .fandc_main p {
