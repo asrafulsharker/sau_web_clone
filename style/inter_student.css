@@ -145,7 +145,7 @@ p {
         flex-wrap: wrap;
     }
     .inter_student {
-        margin-top: 65px;
+        margin-top: 72px;
     }
     .inter_student_main {
         margin-top: 5px;
@@ -182,6 +182,9 @@ p {
     }
     .inter_student_cover_left p {
         /* margin-bottom: 10px !important; */
+    }
+    .about_sau_top_link a img{
+        margin-bottom: 6px;
     }
 }
 
