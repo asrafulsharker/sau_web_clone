@@ -603,6 +603,9 @@ p {
     .home_arrow_next {
         margin-top: -30vh !important;
     }
+    .home_arrow_next {
+        margin-left: 80% !important;
+    }
 }
 @media screen and (max-width: 520px) {
     .home_arrow_next span img {
