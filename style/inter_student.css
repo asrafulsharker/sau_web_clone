@@ -500,11 +500,11 @@ p {
     font-size: 25px !important;
 }
 .home_arrow_prev {
-    margin-top: -20%;
+    margin-top: -12%;
     margin-left: -2% !important;
 }
 .home_arrow_next {
-    margin-top: -20%;
+    margin-top: -12%;
 }
 @media screen and (max-width :1280px) {
     .home_arrow_next {
